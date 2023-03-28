@@ -1,0 +1,22 @@
+---
+name: Backstage Exporter
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
+jobs:
+  backstage-exporter:
+    name: Backstage Exporter
+    runs-on: [self-hosted, light]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - uses: aurora-is-near/github-helpers@main
+        id: backstage-exporter
+        with:
+          helper: backstage-export
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          backstage_url: ${{ secrets.BACKSTAGE_URL }}
+          template_path: templates
+          output_path: .
