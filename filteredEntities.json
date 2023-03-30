@@ -1,0 +1,821 @@
+[
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "34a4592b-e890-4e29-b65e-74ffa606bfd7",
+      "namespace": "default",
+      "name": "aurora-engine",
+      "title": "Aurora (engine)",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "8f9010ec-1f78-4c8b-b0bc-698daa7037b6",
+      "namespace": "default",
+      "name": "aurora-engine-precompiles",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-precompiles/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "precompiles",
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "050ba1e8-80a4-4aeb-8feb-e996a9844455",
+      "namespace": "default",
+      "name": "aurora-engine-precompiles-native",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-precompiles/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/master/engine-precompiles/src/native.rs",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "precompiles",
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "31b8d75f-ce23-46e7-9739-4f5e5c1c0121",
+      "namespace": "default",
+      "name": "aurora-engine-sdk",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-sdk/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-sdk/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-sdk/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-sdk/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-library",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9577113a-434f-41a0-8e16-f08a2187eace",
+      "namespace": "default",
+      "name": "aurora-engine-standalone-storage",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-storage/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-storage/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-standalone-storage/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-storage/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "d10bbd19-d3fe-4dc1-9012-7b3c56d29526",
+      "namespace": "default",
+      "name": "aurora-engine-standalone-tracing",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-tracing/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-tracing/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-standalone-tracing/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-standalone-tracing/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "09f43a9a-518c-4c56-9bc9-a029d71b70a4",
+      "namespace": "default",
+      "name": "aurora-engine-test-doubles",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-test-doubles/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-test-doubles/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-test-doubles/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-test-doubles/",
+        "aurora.dev/security-tier": "-1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "68e2bab3-a2e7-495d-aec9-36603cface1f",
+      "namespace": "default",
+      "name": "aurora-engine-tests",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-tests/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-tests/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-tests/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-tests/",
+        "aurora.dev/security-tier": "-1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "2650eb53-6d71-4e8b-9645-04d7b391f40f",
+      "namespace": "default",
+      "name": "aurora-engine-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/eth-contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/eth-contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/etc/eth-contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/eth-contracts/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "272520ed-0716-4cce-875f-98844c61a83f",
+      "namespace": "default",
+      "name": "aurora-engine-types",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-types/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-types/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine-types/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine-types/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-library",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "2d8316e3-4b69-4209-a5e8-4af8ff9756b2",
+      "namespace": "default",
+      "name": "aurora-engine-xcc-router",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/xcc-router/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/xcc-router/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/etc/xcc-router/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/etc/xcc-router/",
+        "aurora.dev/security-tier": "-1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "990cec4c-333e-4a25-9f73-f8294f267d6f",
+      "namespace": "default",
+      "name": "aurora-pool-together",
+      "title": "Aurora Pool Together",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/poolTogether/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/poolTogether/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/poolTogether/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/poolTogether/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/poolTogether/tree/master/",
+        "aurora.dev/security-tier": "3"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "b11cc6d6-6e68-4b19-ab66-7e541abe53d9",
+      "namespace": "default",
+      "name": "aurora-staking",
+      "title": "Aurora Staking",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStakingV1.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9926d00d-db85-4811-a33d-8be24f934551",
+      "namespace": "default",
+      "name": "aurora-treasury",
+      "title": "Aurora Treasury",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "8ee30970-31ad-48a7-9b16-d07f9765e49b",
+      "namespace": "default",
+      "name": "azul-nft-contract",
+      "title": "Azul NFT contract",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/ethereum/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/azul-app/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/azul-app/tree/master/ethereum/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/azul-app/edit/master/ethereum/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/ethereum/",
+        "aurora.dev/security-tier": "3"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "250aacc1-a64a-4da4-959c-f95e7dd18fed",
+      "namespace": "default",
+      "name": "azul-nft-frontend",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/frontend/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/azul-app/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/azul-app/tree/master/frontend/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/azul-app/edit/master/frontend/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/frontend/",
+        "aurora.dev/security-tier": "3"
+      },
+      "tags": [
+        "website"
+      ]
+    },
+    "spec": {
+      "type": "website"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "75c299d4-3326-4ca2-b517-4481a6858078",
+      "namespace": "default",
+      "name": "azul-nft-nearcon-contract",
+      "title": "Azul NFT contract",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/nearcon/tree/master/ethereum/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/nearcon/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/nearcon/tree/master/ethereum/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/nearcon/edit/master/ethereum/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/nearcon/tree/master/ethereum/",
+        "aurora.dev/security-tier": "3"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "a7eedf33-903b-4d04-8953-a87d94e2d66b",
+      "namespace": "default",
+      "name": "azul-nft-nearcon-frontend",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/nearcon/tree/master/frontend/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/nearcon/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/nearcon/tree/master/frontend/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/nearcon/edit/master/frontend/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/nearcon/tree/master/frontend/",
+        "aurora.dev/security-tier": "3"
+      },
+      "tags": [
+        "website"
+      ]
+    },
+    "spec": {
+      "type": "website"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "257babe6-b1ea-4a3b-84b3-772ab100c41b",
+      "namespace": "default",
+      "name": "bridge-token-factory-on-near",
+      "title": "Bridge Token Factory on Near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "52ee3611-0cc9-4c56-b93b-17709d174748",
+      "namespace": "default",
+      "name": "bridge-token-on-near",
+      "title": "Bridge NEP-141 Token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-token-connector/edit/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "f589e4dd-1dd6-42bb-9121-91bd7bdcd1e0",
+      "namespace": "default",
+      "name": "ed25519-contract",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-bridge/edit/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/contracts/eth/nearbridge/contracts/Ed25519.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "ae3fea0e-df85-4bb5-acfd-52f0065bdfd7",
+      "namespace": "default",
+      "name": "enear-locker-on-near",
+      "title": "eNEAR Locker on NEAR",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/near-erc20-connector/tree/main/nearBridge/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9496cad7-bfc1-40af-bdcd-b52e7bdb0f50",
+      "namespace": "default",
+      "name": "enear-token-on-ethereum",
+      "title": "eNEAR token on Ethereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/near-erc20-connector/edit/main/eNear/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/near-erc20-connector/tree/main/eNear/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "7d6e81dc-b5bf-409d-a424-86079a56be57",
+      "namespace": "default",
+      "name": "erc20-bridge-token",
+      "title": "ERC20 Bridge Token Factory for NEP-141 connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "8f968bef-1f4f-4cdd-a6d8-ec0b4491dda7",
+      "namespace": "default",
+      "name": "erc20-locker",
+      "title": "ERC20 Locker",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-token-connector/edit/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/erc20-connector/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "760479b3-7a16-489f-bd5d-9226e1cca62c",
+      "namespace": "default",
+      "name": "eth-custodian",
+      "title": "ETH Custodian",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/eth-connector/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/eth-connector/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "46fe5cd6-4fd9-4522-b2a2-7c875dcbd859",
+      "namespace": "default",
+      "name": "ethereum-light-client-on-near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-client/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9b3bee12-9dfb-4586-8f66-c0c61a82d9a5",
+      "namespace": "default",
+      "name": "fast-bridge-common",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/fast-bridge-common/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/fast-bridge-common/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/fast-bridge-common/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/fast-bridge-common/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/fast-bridge-common/tree/master/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-library",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "a3fccafa-2fd5-4aa8-9826-85cefefe4250",
+      "namespace": "default",
+      "name": "near-light-client-on-ethereum",
+      "title": "NEAR Light Client on Ethereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-bridge/edit/master/contracts/eth/nearbridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/contracts/eth/nearbridge/contracts/NearBridge.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "daaeb05d-1a09-4cd4-ad2a-112a5a94fe25",
+      "namespace": "default",
+      "name": "near-plugins",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/near-plugins/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/near-plugins/edit/master/near-plugins/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-library",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "042d6afe-692b-44fd-8fd0-e5228f8098a4",
+      "namespace": "default",
+      "name": "near-plugins-derive",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins-derive/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/near-plugins/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins-derive/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/near-plugins/edit/master/near-plugins-derive/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/near-plugins/tree/master/near-plugins-derive/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-library",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "ec734fd4-3371-411d-9f07-c2e5d5eefb2d",
+      "namespace": "default",
+      "name": "prover-on-ethereum",
+      "title": "Prover on Ethereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-bridge/edit/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/eth/nearprover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "7fc819ed-676e-4e79-979f-67c0b8fece71",
+      "namespace": "default",
+      "name": "prover-on-near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-bridge/tree/master/contracts/near/eth-prover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "31ebf191-74cf-40f9-b32e-d2df6b929786",
+      "namespace": "default",
+      "name": "azul-nft",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/azul-app/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/azul-app/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/azul-app/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/azul-app/tree/master/"
+      }
+    },
+    "spec": {}
+  }
+]
