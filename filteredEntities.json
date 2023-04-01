@@ -265,6 +265,54 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "4547b700-ae24-472b-9ba7-12801d5aebc8",
+      "namespace": "default",
+      "name": "aurora-eth-connector",
+      "title": "Aurora Eth Connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-eth-connector/edit/master/eth-connector/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "a1df685c-f3d0-48b6-9b44-8dc020f2d80d",
+      "namespace": "default",
+      "name": "aurora-eth-connector-tests",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector-tests/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector-tests/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-eth-connector/edit/master/eth-connector-tests/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-eth-connector/tree/master/eth-connector-tests/",
+        "aurora.dev/security-tier": "-1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-tests"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "990cec4c-333e-4a25-9f73-f8294f267d6f",
       "namespace": "default",
       "name": "aurora-pool-together",
