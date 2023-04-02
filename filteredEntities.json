@@ -484,6 +484,31 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "a5c67efd-9ed7-4c57-bb86-b6dbfd9b186a",
+      "namespace": "default",
+      "name": "bridge-common",
+      "title": "Bridge common",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/rainbow-token-connector/edit/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/rainbow-token-connector/tree/master/bridge-common/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "257babe6-b1ea-4a3b-84b3-772ab100c41b",
       "namespace": "default",
       "name": "bridge-token-factory-on-near",
