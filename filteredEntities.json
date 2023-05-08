@@ -28,6 +28,30 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "68ddd833-c461-4994-86fc-435362ba47f2",
+      "namespace": "default",
+      "name": "aurora-engine-cli-rs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-cli-rs/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-cli-rs/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-cli-rs/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-cli-rs/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-cli-rs/tree/main/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "near",
+        "cli"
+      ]
+    },
+    "spec": {
+      "type": "contract-library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "8f9010ec-1f78-4c8b-b0bc-698daa7037b6",
       "namespace": "default",
       "name": "aurora-engine-precompiles",
