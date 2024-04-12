@@ -8,11 +8,11 @@ on:
 jobs:
   backstage-exporter:
     name: Backstage Exporter
-    runs-on: [self-hosted, light]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - uses: aurora-is-near/github-helpers@main
+      - uses: aurora-is-near/backstage-blockchain-actions@v1
         id: backstage-exporter
         with:
           helper: backstage-export
@@ -20,3 +20,10 @@ jobs:
           backstage_url: ${{ secrets.BACKSTAGE_URL }}
           template_path: templates
           output_path: .
+
+      - name: Commit exports
+        run: |
+          git config user.name 'Backstage Exporter'
+          git config user.email 'security@aurora.dev'
+          git diff --quiet || (git add . && git commit -m "chore(backstage): 🥷🏽 automatic re-export")
+          git push
