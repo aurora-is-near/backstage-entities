@@ -561,7 +561,12 @@
       "type": "contract-deployment",
       "address": "0x22A412e9d94Ec8551e184DC268d60237dCADFAb0",
       "network": "aurora",
-      "networkType": "mainnet"
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 51925202
+        }
+      }
     }
   },
   {
@@ -617,7 +622,12 @@
       "type": "contract-deployment",
       "address": "0x7362D7991CC324d2E35CB0cD4Ed95f124aD49895",
       "network": "aurora",
-      "networkType": "mainnet"
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 53796291
+        }
+      }
     }
   },
   {
@@ -679,7 +689,12 @@
       "type": "contract-deployment",
       "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
       "network": "aurora",
-      "networkType": "mainnet"
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 52838649
+        }
+      }
     }
   },
   {
@@ -700,14 +715,20 @@
       },
       "tags": [
         "contract-address",
-        "aurora"
+        "aurora",
+        "rbac"
       ]
     },
     "spec": {
       "type": "contract-deployment",
       "address": "0xccc2b1aD21666A5847A804a73a41F904C4a4A0Ec",
       "network": "aurora",
-      "networkType": "mainnet"
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 65575611
+        }
+      }
     }
   },
   {
@@ -4568,13 +4589,13 @@
       "uid": "196d12ec-8860-4390-b520-f3610f405235",
       "namespace": "stub",
       "name": "aurora-mainnet-0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42",
-      "title": "* 0x88e...CE42 6RNp39NYnxUhkA5seVMNQAhhYstJHPoYuwc83GKbzp96 member",
+      "title": "* 0x88e...CE42 2tjvVt2HdiqfS8vDwiQXa6Uy53BLWmXb4eR6ux4ESmTg member",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
@@ -4623,7 +4644,12 @@
       "type": "contract-deployment",
       "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
       "network": "aurora",
-      "networkType": "mainnet"
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 52838649
+        }
+      }
     }
   },
   {
@@ -4905,7 +4931,7 @@
       "networkType": "mainnet",
       "deployment": {
         "source": {
-          "startBlock": 74677552
+          "startBlock": 0
         }
       }
     }
