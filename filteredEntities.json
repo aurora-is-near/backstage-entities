@@ -68,7 +68,7 @@
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
@@ -469,7 +469,7 @@
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
@@ -1699,7 +1699,7 @@
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
@@ -2016,7 +2016,7 @@
       "networkType": "mainnet",
       "deployment": {
         "source": {
-          "startBlock": 15618124
+          "startBlock": 15617816
         }
       }
     }
@@ -2874,6 +2874,35 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "a5c8154b-b41d-4031-b30b-769213b8e382",
+      "namespace": "default",
+      "name": "aurora-erc20-fast-bridge",
+      "title": "EthErc20FastBridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x74ABD625a1132b9b3258313A99828315b10ef864",
+        "contract:aurora/testnet/0xba120F3757a2C75eA4AcC3fC3c9819AC378A10E0"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "3af0a17c-42b6-4745-9fdc-cb881680ce05",
       "namespace": "default",
       "name": "aurora-eth-connector",
@@ -3219,6 +3248,64 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "726ab80e-8dec-44c3-aeca-8830c86f62ad",
+      "namespace": "default",
+      "name": "eth-custodian",
+      "title": "ETH Custodian",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/eth-connector/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/eth-connector/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:ethereum/mainnet/0x6bfad42cfc4efc96f529d786d643ff4a8b89fa52",
+        "contract:ethereum/goerli/0x84a82Bb39c83989D5Dc07e1310281923D2544dC2"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "db20c0ac-d7dd-4bd3-9b38-81462074de72",
+      "namespace": "default",
+      "name": "eth-erc20-fast-bridge",
+      "title": "EthErc20FastBridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/eth/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:ethereum/mainnet/0xC5E985976d9b521904AD96306356ECA0fE4F3a1f",
+        "contract:ethereum/goerli/0x00763f30eEB0eEF506907e18f2a6ceC2DAb30Df8"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "104f595d-8bfe-4c7c-91a7-4e5b20d85b61",
       "namespace": "default",
       "name": "ethereum-light-client-on-near",
@@ -3292,6 +3379,35 @@
       "type": "contract",
       "deployedAt": [
         "contract:aurora/mainnet/0x22a412e9d94ec8551e184dc268d60237dcadfab0"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "53b74e19-9490-40d6-9ea5-f5d766b197e4",
+      "namespace": "default",
+      "name": "near-erc20-fast-bridge",
+      "title": "NearErc20FastBridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/fast.bridge.near",
+        "contract:near/testnet/fastbridge.testnet"
       ]
     }
   },
