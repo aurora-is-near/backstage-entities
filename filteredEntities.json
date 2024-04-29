@@ -326,6 +326,40 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "bd5a0da3-12d3-494a-9594-d5c6e09c3065",
+      "namespace": "default",
+      "name": "aurora-mainnet-0x74ABD625a1132b9b3258313A99828315b10ef864",
+      "title": "0x74A...f864 aurora-erc20-fast-bridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "aurora",
+        "rbac"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x74ABD625a1132b9b3258313A99828315b10ef864",
+      "network": "aurora",
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 101114071
+        }
+      }
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "f0474526-55dd-44a0-b1c4-72160a233ab0",
       "namespace": "default",
       "name": "aurora-mainnet-0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
@@ -460,6 +494,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "f43a2497-3019-468d-a815-4449935181df",
+      "namespace": "default",
+      "name": "aurora-testnet-0xba120F3757a2C75eA4AcC3fC3c9819AC378A10E0",
+      "title": "0xba1...10E0 aurora-erc20-fast-bridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/aurora/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0xba120F3757a2C75eA4AcC3fC3c9819AC378A10E0",
+      "network": "aurora",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "ae8c8746-4b89-4e35-a2d4-f16708ad8be1",
       "namespace": "default",
       "name": "CAWk5Ruwe9Le4gMK5vnAjZ8qa1C1dsAFWWxJsGDiAkqv",
@@ -564,6 +626,34 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x6f2C9EbFB1e3Ff065E6725A715B458EF13206097",
+      "network": "ethereum",
+      "networkType": "goerli"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "dcf8f4a1-334e-4b9c-8c7b-ef74c4595a90",
+      "namespace": "default",
+      "name": "ethereum-goerli-0x84a82Bb39c83989D5Dc07e1310281923D2544dC2",
+      "title": "0x84a...4dC2 eth-custodian",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/eth-connector/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/eth-connector/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x84a82Bb39c83989D5Dc07e1310281923D2544dC2",
       "network": "ethereum",
       "networkType": "goerli"
     }
@@ -686,6 +776,39 @@
       "deployment": {
         "source": {
           "startBlock": 15617816
+        }
+      }
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "3a6faecf-6a1f-4d52-9b9c-07ae49406bd2",
+      "namespace": "default",
+      "name": "ethereum-mainnet-0x6BFaD42cFC4EfC96f529D786D643Ff4A8B89FA52",
+      "title": "0x6BF...FA52 eth-custodian",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/eth-connector/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/eth-connector/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x6BFaD42cFC4EfC96f529D786D643Ff4A8B89FA52",
+      "network": "ethereum",
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 12702964
         }
       }
     }
@@ -1787,7 +1910,7 @@
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/Treasury.sol",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
@@ -3220,6 +3343,115 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "3cb3fadf-af1f-48a1-b665-2cba62549da8",
+      "namespace": "default",
+      "name": "bridge-common",
+      "title": "Bridge common",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-common/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-common/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-library",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "e81236d6-4249-4247-a879-013615544b86",
+      "namespace": "default",
+      "name": "bridge-near-token-locker",
+      "title": "FT-Locker on Near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/ft-locker.bridge.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "b8b62ded-8d6f-4da7-ab4c-51567a418dbf",
+      "namespace": "default",
+      "name": "bridge-token-factory-on-near",
+      "title": "Bridge Token Factory on Near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/factory.bridge.near",
+        "contract:near/testnet/factory.goerli.testnet"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "c2bd9ffd-8d9e-403c-8a08-a2933e2dcf49",
+      "namespace": "default",
+      "name": "bridge-token-on-near",
+      "title": "Bridge NEP-141 Token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "4fafab9e-286f-407f-880f-39a6e88509fd",
       "namespace": "default",
       "name": "ed25519-contract",
@@ -3241,6 +3473,121 @@
       "deployedAt": [
         "contract:ethereum/mainnet/0x88f975d5a1153ea92af66e7c4292576a329c04b6",
         "contract:ethereum/goerli/0x6f2C9EbFB1e3Ff065E6725A715B458EF13206097"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "a5d0fdd0-d1dc-4c3d-8c8a-3861cff3c848",
+      "namespace": "default",
+      "name": "enear-locker-on-near",
+      "title": "eNEAR Locker on NEAR",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/e-near.near",
+        "contract:near/testnet/enear.goerli.testnet"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "98891fc5-9a68-474c-92e0-835f55552e4e",
+      "namespace": "default",
+      "name": "enear-token-on-ethereum",
+      "title": "eNEAR token on Ethereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/eNear/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/eNear/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:ethereum/mainnet/0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4",
+        "contract:ethereum/goerli/0xe6b7C088Da1c2BfCf84aaE03fd6DE3C4f28629dA"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "a41ffdb0-57ec-41a9-b3a5-84142220a47a",
+      "namespace": "default",
+      "name": "erc20-bridge-token",
+      "title": "ERC20 Bridge Token Factory for NEP-141 connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:ethereum/mainnet/0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "6e15018e-b9e3-4f05-8c10-6e1898341548",
+      "namespace": "default",
+      "name": "erc20-locker",
+      "title": "ERC20 Locker",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:ethereum/mainnet/0x23ddd3e3692d1861ed57ede224608875809e127f",
+        "contract:ethereum/goerli/0xc115851ca60aed2ccc6ee3d5343f590834e4a3ab"
       ]
     }
   },
