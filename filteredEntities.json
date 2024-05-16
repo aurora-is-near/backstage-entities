@@ -5107,6 +5107,42 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "e854764d-f388-4f89-8267-8dd9ee0d5348",
+      "namespace": "stub",
+      "name": "near-mainnet-wrap.near",
+      "title": "* wrap.near get-wnear-account-id",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "wrap.near",
+      "network": "near",
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 29998148
+        }
+      }
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "4231e691-a2da-46b3-817e-338bddd41820",
       "namespace": "stub",
       "name": "near-testnet-goerli-dao.sputnikv2.testnet",
