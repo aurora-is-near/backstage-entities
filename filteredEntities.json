@@ -4610,7 +4610,7 @@
       "uid": "196d12ec-8860-4390-b520-f3610f405235",
       "namespace": "stub",
       "name": "aurora-mainnet-0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42",
-      "title": "* 0x88e...CE42 5FUS8i4ZeJFpr9g5JonksCcJkXLHtXXs2vwktU1pc1Nc member",
+      "title": "* 0x88e...CE42 6RNp39NYnxUhkA5seVMNQAhhYstJHPoYuwc83GKbzp96 member",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
@@ -6342,6 +6342,35 @@
       "deployedAt": [
         "contract:near/mainnet/e-near.near",
         "contract:near/testnet/enear.goerli.testnet"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "7489b176-f4b9-4f67-8f57-58c3e18826b9",
+      "namespace": "default",
+      "name": "enear-token-on-aurora",
+      "title": "eNEAR token on Aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x5D5a9D3fB8BD3959B0C9266f90e126427E83872d",
+        "contract:aurora/testnet/0x329242C003Df320166F5b198dCcb22b0CFF1d91B"
       ]
     }
   },
