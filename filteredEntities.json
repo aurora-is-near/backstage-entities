@@ -573,6 +573,39 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "0bc98951-3f8e-40c1-827d-354ceec9f405",
+      "namespace": "default",
+      "name": "aurora-mainnet-0x5D5a9D3fB8BD3959B0C9266f90e126427E83872d",
+      "title": "0x5D5...872d enear-token-on-aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x5D5a9D3fB8BD3959B0C9266f90e126427E83872d",
+      "network": "aurora",
+      "networkType": "mainnet",
+      "deployment": {
+        "source": {
+          "startBlock": 117845582
+        }
+      }
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "831f2910-10e8-458b-a8e4-9ebf39820e02",
       "namespace": "default",
       "name": "aurora-mainnet-0x6edE987A51d7b4d3945E7a76Af59Ff2b968910A8",
@@ -796,6 +829,34 @@
           "startBlock": 65575541
         }
       }
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "080bda94-ae37-403e-8ca7-5aa0979371b9",
+      "namespace": "default",
+      "name": "aurora-testnet-0x329242C003Df320166F5b198dCcb22b0CFF1d91B",
+      "title": "0x329...d91B enear-token-on-aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/aurora/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/aurora/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/aurora/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x329242C003Df320166F5b198dCcb22b0CFF1d91B",
+      "network": "aurora",
+      "networkType": "testnet"
     }
   },
   {
