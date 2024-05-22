@@ -4194,8 +4194,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4223,8 +4222,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4252,8 +4250,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4281,8 +4278,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4310,8 +4306,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4339,8 +4334,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4368,8 +4362,7 @@
         "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1",
-        "backstage.io/orphan": "true"
+        "aurora.dev/security-tier": "1"
       },
       "tags": [
         "role-group",
@@ -4567,14 +4560,20 @@
       },
       "tags": [
         "contract-address",
-        "near"
+        "near",
+        "rbac"
       ]
     },
     "spec": {
       "type": "contract-deployment",
       "address": "prover.goerli.testnet",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "testnet",
+      "deployment": {
+        "source": {
+          "startBlock": 56957222
+        }
+      }
     }
   },
   {
