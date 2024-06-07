@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: aurora-is-near/github-helpers@main
+      - uses: aurora-is-near/backstage-blockchain-actions@v1
         id: backstage-exporter
         with:
           helper: backstage-export
