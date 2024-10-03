@@ -2638,10 +2638,94 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "48b13acc-38b3-4c02-b245-41aec5c3719e",
+      "namespace": "default",
+      "name": "near-fast.bridge.near-DAO",
+      "title": "fast.bridge.near role-group DAO",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "fast.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "f51c7a36-43bd-4b1e-bbae-44ba4afbdcc7",
       "namespace": "default",
       "name": "near-fast.bridge.near-DurationManager",
       "title": "fast.bridge.near role-group DurationManager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "fast.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "664dd012-8fc4-4f90-be25-f2678a8413f8",
+      "namespace": "default",
+      "name": "near-fast.bridge.near-PauseManager",
+      "title": "fast.bridge.near role-group PauseManager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "fast.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "e16195d0-b990-40ae-a99b-4b51759fb762",
+      "namespace": "default",
+      "name": "near-fast.bridge.near-super_admins",
+      "title": "fast.bridge.near role-group super_admins",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
@@ -2754,6 +2838,34 @@
       "namespace": "default",
       "name": "near-fast.bridge.near-UnrestrictedWithdraw",
       "title": "fast.bridge.near role-group UnrestrictedWithdraw",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "fast.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "617d4767-0708-4614-b2a4-5a28da9840a9",
+      "namespace": "default",
+      "name": "near-fast.bridge.near-WhitelistManager",
+      "title": "fast.bridge.near role-group WhitelistManager",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
