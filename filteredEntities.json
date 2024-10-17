@@ -3,6 +3,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "6f7b2f96-d3ae-4853-88cd-76d22f9ce718",
+      "namespace": "default",
+      "name": "21J4WZssuqWG8redzzMramgRi5yZvxEH848NVMGL8zBn",
+      "title": "client-eth2.bridge.near role-group UnrestrictedSubmitLightClientUpdate",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "a3bbf8e9-1712-4fae-872c-fb24acfeac81",
       "namespace": "default",
       "name": "26pmggyPiywuk8owUya6NTZmTeb2cNvmgDJYwZtkoZu5",
@@ -676,7 +704,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2fa46861-a3c5-41e3-aa3a-47c710a2ea49",
+      "uid": "357b5395-f865-4044-9db3-fd36ffd63dd9",
       "namespace": "default",
       "name": "DxsmuczYzA2ifdwSsp5LjB4oMbGnoYV5DEH9CSqycmw3",
       "title": "client-eth2.goerli.testnet role-group UnrestrictedSubmitLightClientUpdate",
@@ -1182,7 +1210,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "23e6e4a5-671a-47de-b607-72eb780374b8",
+      "uid": "c9a6304d-604f-47d6-b88c-817734c09975",
       "namespace": "default",
       "name": "FmGgkwTYrveRZTxzmN5M5GKWD8hvqD8WSFsCG2tFLLUF",
       "title": "client-eth2.goerli.testnet role-group UnrestrictedSubmitExecutionHeader",
@@ -1210,7 +1238,175 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ae38a619-ba9b-45cf-a298-4f0fb8b66870",
+      "uid": "165637d4-188e-40b6-93b7-0365bd3ce754",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-DAO",
+      "title": "client-eth2.bridge.near role-group DAO",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "b244ac7d-6c9c-414b-a69f-76122ae9fb45",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-PauseManager",
+      "title": "client-eth2.bridge.near role-group PauseManager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "694a4c66-1f55-4831-89e3-3f61816e14dc",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-super_admins",
+      "title": "client-eth2.bridge.near role-group super_admins",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "25f5fe45-61e0-4faf-af54-60e2e4618daa",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-UnrestrictedSubmitExecutionHeader",
+      "title": "client-eth2.bridge.near role-group UnrestrictedSubmitExecutionHeader",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "3b8c95df-5178-47f8-9e9f-60271da867f0",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-UpgradableCodeDeployer",
+      "title": "client-eth2.bridge.near role-group UpgradableCodeDeployer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "95b88c4d-f524-4dd4-8c61-9e9f511c4996",
+      "namespace": "default",
+      "name": "near-client-eth2.bridge.near-UpgradableCodeStager",
+      "title": "client-eth2.bridge.near role-group UpgradableCodeStager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "f9123c39-6e79-4fbe-9514-f3f2c53ed86b",
       "namespace": "default",
       "name": "near-client-eth2.goerli.testnet-DAO",
       "title": "client-eth2.goerli.testnet role-group DAO",
@@ -1238,7 +1434,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "d1f9d3a1-adb8-44bb-87f3-c97cd9d3ba0c",
+      "uid": "6c4ff886-dcbb-4813-adfc-bf5164b5741f",
       "namespace": "default",
       "name": "near-client-eth2.goerli.testnet-PauseManager",
       "title": "client-eth2.goerli.testnet role-group PauseManager",
@@ -1266,7 +1462,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "c9cc45ce-dedc-4bee-a0d3-b62fbea9f97f",
+      "uid": "26fc8731-8083-4070-91aa-ce3b5755eb1e",
       "namespace": "default",
       "name": "near-client-eth2.goerli.testnet-super_admins",
       "title": "client-eth2.goerli.testnet role-group super_admins",
@@ -1294,7 +1490,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "de86e5f2-414b-4a01-a39e-ba7ea913cb12",
+      "uid": "3dbaf6a7-e083-4623-bb77-79f1e762a469",
       "namespace": "default",
       "name": "near-client-eth2.goerli.testnet-UpgradableCodeDeployer",
       "title": "client-eth2.goerli.testnet role-group UpgradableCodeDeployer",
@@ -1322,7 +1518,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "bccd4e80-8fb5-4b36-8fee-5c81659aec97",
+      "uid": "c7c3b173-a9e9-4657-98ac-c7de56cbb39c",
       "namespace": "default",
       "name": "near-client-eth2.goerli.testnet-UpgradableCodeStager",
       "title": "client-eth2.goerli.testnet role-group UpgradableCodeStager",
@@ -1546,7 +1742,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "5d3c204a-badb-47d9-8cde-583b9183d2b5",
+      "uid": "4a11f545-efb3-45cd-9f78-72425ca62d52",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-DAO",
       "title": "enear.goerli.testnet role-group DAO",
@@ -1574,7 +1770,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "f5e32c8e-fbef-43a4-b33d-8f5822591c76",
+      "uid": "fd366a03-cf42-4cbd-9415-c61602b74164",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-PauseManager",
       "title": "enear.goerli.testnet role-group PauseManager",
@@ -1602,7 +1798,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "be95ca97-e70e-42ba-96c4-c7a4153880d4",
+      "uid": "2a940073-a62e-4495-9035-dcfee84f70fd",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-super_admins",
       "title": "enear.goerli.testnet role-group super_admins",
@@ -1630,7 +1826,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7c8013aa-e4f6-4ecd-b103-86580dfce67b",
+      "uid": "fdd05b14-6fc4-41b7-99cf-afd3fff67986",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-UnrestrictedFinaliseEthToNearTransfer",
       "title": "enear.goerli.testnet role-group UnrestrictedFinaliseEthToNearTransfer",
@@ -1658,7 +1854,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "9ee47893-84bd-42a0-b0fa-f08dd51fc010",
+      "uid": "cab1359f-2443-4861-affc-043ac14d8f79",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-UnrestrictedMigrateToEthereum",
       "title": "enear.goerli.testnet role-group UnrestrictedMigrateToEthereum",
@@ -1686,7 +1882,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "3b7f1c15-202d-4ea3-aea7-7d3da45ffd4b",
+      "uid": "90011d05-dea5-408b-971a-5717ffca8d16",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-UpgradableCodeDeployer",
       "title": "enear.goerli.testnet role-group UpgradableCodeDeployer",
@@ -1714,7 +1910,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "1166abbb-cebf-4039-9171-e03e596a157d",
+      "uid": "17167954-b8df-43ee-8e95-4f0798753871",
       "namespace": "default",
       "name": "near-enear.goerli.testnet-UpgradableCodeStager",
       "title": "enear.goerli.testnet role-group UpgradableCodeStager",
@@ -2050,7 +2246,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "04010a98-bb71-42af-83d9-879cc8b344b7",
+      "uid": "ca284ae5-667d-456b-8c45-f23708a286ee",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-DAO",
       "title": "factory.goerli.testnet role-group DAO",
@@ -2078,7 +2274,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "b911e01c-b525-45c2-a61d-b27dbd461107",
+      "uid": "e4844f41-b247-4b1c-bd76-01ad62c907e1",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-ForceWithdrawer",
       "title": "factory.goerli.testnet role-group ForceWithdrawer",
@@ -2106,7 +2302,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "0c89660d-5dc0-4a6a-bcc5-09c293c24ba0",
+      "uid": "2b28dfa1-6d09-452a-816c-e10b63996129",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-MetadataManager",
       "title": "factory.goerli.testnet role-group MetadataManager",
@@ -2134,7 +2330,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "868133f2-a55b-46fe-a82d-e97727ab2674",
+      "uid": "c039eee0-5436-4251-826f-a50aa18bbd10",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-PauseManager",
       "title": "factory.goerli.testnet role-group PauseManager",
@@ -2162,7 +2358,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "6273bf84-028d-47f0-b2ae-66ff12b914d5",
+      "uid": "549ba1e2-0bc8-49db-bbb0-3dd8603589b4",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-super_admins",
       "title": "factory.goerli.testnet role-group super_admins",
@@ -2190,7 +2386,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "0bca4e6d-e99d-4366-a2f5-092ea7f2f3c6",
+      "uid": "9b928ddf-cfe4-4951-9886-b7fb64c12e63",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-TokenUpgradableManager",
       "title": "factory.goerli.testnet role-group TokenUpgradableManager",
@@ -2218,7 +2414,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7bf207c0-1c74-404a-8aa6-0a55e1e2fa38",
+      "uid": "d10f1773-70ee-4237-9284-073918565235",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-UnrestrictedDeployBridgeToken",
       "title": "factory.goerli.testnet role-group UnrestrictedDeployBridgeToken",
@@ -2246,7 +2442,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "64c1c51c-50d7-4fb4-9005-75a6b845b793",
+      "uid": "7ae7600e-42f1-4f00-8665-475528cad211",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-UnrestrictedDeposit",
       "title": "factory.goerli.testnet role-group UnrestrictedDeposit",
@@ -2274,7 +2470,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "097992c8-0587-4743-9017-d04f296e1add",
+      "uid": "a9db5e93-1b82-43f2-96f7-3d59232448da",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-UnrestrictedUpdateMetadata",
       "title": "factory.goerli.testnet role-group UnrestrictedUpdateMetadata",
@@ -2302,7 +2498,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "b564b765-5f09-4ed5-b815-a9d9cbe45a4a",
+      "uid": "5de1315a-cee4-485d-962c-c07b524d7316",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-UpgradableCodeDeployer",
       "title": "factory.goerli.testnet role-group UpgradableCodeDeployer",
@@ -2330,7 +2526,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "1e2c744b-8068-4a77-af0c-195e1c43f6ea",
+      "uid": "6920ef7d-6ab1-4e2a-8adb-0d5a41294f3d",
       "namespace": "default",
       "name": "near-factory.goerli.testnet-UpgradableCodeStager",
       "title": "factory.goerli.testnet role-group UpgradableCodeStager",
@@ -2694,7 +2890,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "8ae57532-f2a9-496f-bf2c-b80951e5dcaa",
+      "uid": "b9de9f8a-6e9e-4f8f-bcb7-d9a5425e5c9f",
       "namespace": "default",
       "name": "near-fastbridge.testnet-CodeDeployer",
       "title": "fastbridge.testnet role-group CodeDeployer",
@@ -2722,7 +2918,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "c96950dc-ed52-4906-a2bf-c3b8dce14ea0",
+      "uid": "e3191478-ead5-45c6-bfb9-569137c6cfe7",
       "namespace": "default",
       "name": "near-fastbridge.testnet-CodeStager",
       "title": "fastbridge.testnet role-group CodeStager",
@@ -2750,7 +2946,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "c415b486-4dcf-4bda-8269-69adf645ffcd",
+      "uid": "bb815487-52ef-4cab-a205-1364056393c1",
       "namespace": "default",
       "name": "near-fastbridge.testnet-ConfigManager",
       "title": "fastbridge.testnet role-group ConfigManager",
@@ -2778,7 +2974,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2ac2fd26-11b7-4a6f-a9bc-e548b517bc40",
+      "uid": "5995a8da-a1ad-4e1c-a353-9486086d0f82",
       "namespace": "default",
       "name": "near-fastbridge.testnet-DAO",
       "title": "fastbridge.testnet role-group DAO",
@@ -2806,7 +3002,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ffc31f9a-765e-4135-84e9-1af66b7e8dd7",
+      "uid": "0dc73aba-a09e-4634-9b54-fa32f06a1e07",
       "namespace": "default",
       "name": "near-fastbridge.testnet-DurationManager",
       "title": "fastbridge.testnet role-group DurationManager",
@@ -2834,7 +3030,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "66da1060-ea1d-4b9f-87c8-0ec876d363fa",
+      "uid": "9bafae0c-168d-43ef-b6e8-b23cc0966e3d",
       "namespace": "default",
       "name": "near-fastbridge.testnet-PauseManager",
       "title": "fastbridge.testnet role-group PauseManager",
@@ -2862,7 +3058,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "66e9875d-31bc-4929-8c73-41013b608b23",
+      "uid": "0db0a5e7-0a8d-4865-8569-350cab63fdf4",
       "namespace": "default",
       "name": "near-fastbridge.testnet-super_admins",
       "title": "fastbridge.testnet role-group super_admins",
@@ -2890,7 +3086,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "efefb3e8-ad8a-4c28-9bcc-c8c033264477",
+      "uid": "83433648-b7ae-44f9-9537-0e0ef0cf4fcc",
       "namespace": "default",
       "name": "near-fastbridge.testnet-UnlockManager",
       "title": "fastbridge.testnet role-group UnlockManager",
@@ -2918,7 +3114,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7578315e-dbc2-4769-92c8-b0a9d5009227",
+      "uid": "ba3212b4-ffc4-4c45-8b31-d71de77e00f2",
       "namespace": "default",
       "name": "near-fastbridge.testnet-UnrestrictedLpUnlock",
       "title": "fastbridge.testnet role-group UnrestrictedLpUnlock",
@@ -2946,7 +3142,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "444c0a76-7992-4f64-b309-bf249fbf022a",
+      "uid": "7039bd87-2f70-48f3-a9e3-52f4fb06f91c",
       "namespace": "default",
       "name": "near-fastbridge.testnet-UnrestrictedUnlock",
       "title": "fastbridge.testnet role-group UnrestrictedUnlock",
@@ -2974,7 +3170,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "8469e873-2301-450c-a117-749a795adc55",
+      "uid": "aaaf45ca-5290-4715-b547-ecad7258dd19",
       "namespace": "default",
       "name": "near-fastbridge.testnet-UnrestrictedWithdraw",
       "title": "fastbridge.testnet role-group UnrestrictedWithdraw",
@@ -3002,7 +3198,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "931f39bc-75f4-4d9a-9972-53ebc7173bd7",
+      "uid": "a8532138-be5e-4cf1-9eaf-47221f96e969",
       "namespace": "default",
       "name": "near-fastbridge.testnet-WhitelistManager",
       "title": "fastbridge.testnet role-group WhitelistManager",
@@ -3660,7 +3856,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "67bdd3a6-39fc-48fb-bd9d-32ffa380ca64",
+      "uid": "a3b43a02-bf15-47c8-81e5-0d088dc60a1e",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-DAO",
       "title": "prover.goerli.testnet role-group DAO",
@@ -3688,7 +3884,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "4b32abae-130d-4a1a-aed6-4d697b61ac4a",
+      "uid": "c175eca2-24fe-45c6-89ac-d35299d90520",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-PauseManager",
       "title": "prover.goerli.testnet role-group PauseManager",
@@ -3716,7 +3912,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "d15bc59d-d3e6-4232-a121-f5ce79124259",
+      "uid": "0c7d1b02-bd80-44cd-b105-47ae8e02b412",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-super_admins",
       "title": "prover.goerli.testnet role-group super_admins",
@@ -3744,7 +3940,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "39e884e2-49db-4f85-bd1e-f08dae55fc21",
+      "uid": "73207a02-e01c-47cf-b3e3-7b897fd1ad83",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-UnrestrictedVerifyLogEntry",
       "title": "prover.goerli.testnet role-group UnrestrictedVerifyLogEntry",
@@ -3772,7 +3968,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "663199c1-d37f-40d1-9055-f140d393a6e6",
+      "uid": "0f28b13b-ea79-47f2-a1c5-1e07173d3f16",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-UnrestrictedVerifyStorageProof",
       "title": "prover.goerli.testnet role-group UnrestrictedVerifyStorageProof",
@@ -3800,7 +3996,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "1b52cc3e-09d3-4f9f-b285-ffcc62cae087",
+      "uid": "8815a7ed-2246-4dfa-9953-cedd62a58f05",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-UpgradableCodeDeployer",
       "title": "prover.goerli.testnet role-group UpgradableCodeDeployer",
@@ -3828,7 +4024,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "c5aa145b-d3fa-445e-954f-e69390a147d9",
+      "uid": "734b90c1-9245-4b72-82e0-592f0b63a5ae",
       "namespace": "default",
       "name": "near-prover.goerli.testnet-UpgradableCodeStager",
       "title": "prover.goerli.testnet role-group UpgradableCodeStager",
@@ -3856,7 +4052,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "878e7b4d-edc5-4328-96f6-666c18f3b172",
+      "uid": "c3b8924c-d85d-4c6e-8073-9c1373f9ca91",
       "namespace": "default",
       "name": "near-testnet-aurora",
       "title": "aurora",
@@ -3885,7 +4081,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "37f7fc2e-ab5c-4516-aa5b-73351f576e1d",
+      "uid": "f4592732-e620-42e5-ada9-caa7e990b34c",
       "namespace": "default",
       "name": "near-testnet-client-eth2.goerli.testnet",
       "title": "client-eth2.goerli.testnet",
@@ -3900,8 +4096,7 @@
       "tags": [
         "contract-address",
         "near",
-        "rbac",
-        "has-unknown"
+        "rbac"
       ]
     },
     "spec": {
@@ -3945,7 +4140,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "14ff13e8-9805-4f23-b8ed-f36f18ffcce6",
+      "uid": "61671824-28a4-48f1-a72c-b85af60d99aa",
       "namespace": "default",
       "name": "near-testnet-factory.goerli.testnet",
       "title": "factory.goerli.testnet",
@@ -3975,7 +4170,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "87903c86-9942-4425-8ddf-c8ded4bbea21",
+      "uid": "2fdb0f66-0eec-4e46-956c-64584ee63b14",
       "namespace": "default",
       "name": "near-testnet-fastbridge.testnet",
       "title": "fastbridge.testnet",
@@ -4151,6 +4346,37 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "5046f644-64e4-4bb8-8e3a-6cdc4bbd3328",
+      "namespace": "stub",
+      "name": "near-mainnet-bridge-validator.sputnik-dao.near",
+      "title": "* bridge-validator.sputnik-dao.near get-trusted-signer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "bridge-validator.sputnik-dao.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "c43eb6b5-8f78-460f-92a6-af606ca73a45",
       "namespace": "stub",
       "name": "near-mainnet-rainbowbridge.sputnik-dao.near",
@@ -4212,7 +4438,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ba11b152-d1cf-40f1-b02a-6f6fd2b0868c",
+      "uid": "010bcbef-667d-45da-9df6-096f668036ce",
       "namespace": "stub",
       "name": "near-testnet-goerli-dao.sputnikv2.testnet",
       "title": "* goerli-dao.sputnikv2.testnet get-trusted-signer",
