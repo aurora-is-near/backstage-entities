@@ -6153,6 +6153,33 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "59b81a38-7491-4a9f-ba1b-ada2f05d3092",
+      "namespace": "default",
+      "name": "defuse-contract",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/defuse-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/defuse-contracts/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/defuse-alpha.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "2af63788-518b-4733-ae03-c0318351e724",
       "namespace": "default",
       "name": "ed25519-contract",
