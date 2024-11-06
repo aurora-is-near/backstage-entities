@@ -4024,6 +4024,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "be756f93-f048-4a98-8803-751bf5152328",
+      "namespace": "default",
+      "name": "near-mainnet-intents.near",
+      "title": "intents.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/defuse-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/defuse-contracts/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/defuse/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "b7b5a1bd-83e1-4570-a064-00fa03eef606",
       "namespace": "default",
       "name": "near-mainnet-prover.bridge.near",
