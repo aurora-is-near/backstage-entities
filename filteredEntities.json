@@ -3845,6 +3845,35 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "5ffa24cf-9b8a-41a8-ac5d-a7e08587e51a",
+      "namespace": "default",
+      "name": "near-mainnet-btc-client.bridge.near",
+      "title": "btc-client.bridge.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/contract/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/btc-light-client-contract/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/btc-light-client-contract/tree/main/contract/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/btc-light-client-contract/edit/main/contract/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/contract/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "btc-client.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "0aeca3c6-88a3-4420-a576-f3a259547ebd",
       "namespace": "default",
       "name": "near-mainnet-client-eth2.bridge.near",
