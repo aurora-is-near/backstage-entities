@@ -6156,6 +6156,32 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "f88bb07b-9700-4afe-a571-0746e8ecf548",
+      "namespace": "default",
+      "name": "bridge-token-factory",
+      "title": "BridgeTokenFactory on Ethereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/evm/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/evm/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/evm/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/evm/bridge-token-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "b8b62ded-8d6f-4da7-ab4c-51567a418dbf",
       "namespace": "default",
       "name": "bridge-token-factory-on-near",
@@ -6549,6 +6575,32 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "6c188b9d-3b3e-4da8-9d96-a72b37a13c9f",
+      "namespace": "default",
+      "name": "evm-prover",
+      "title": "EVM Prover",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/evm-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/evm-prover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-prover/evm-prover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/evm-prover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "b77b6f91-de6d-4149-a513-b4ae248fa5a3",
       "namespace": "default",
       "name": "fast-bridge-common",
@@ -6727,6 +6779,82 @@
     "spec": {
       "type": "contract",
       "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "05721b50-a3db-4695-8593-29afc605053c",
+      "namespace": "default",
+      "name": "omni-nep141-locker",
+      "title": "NEP141 Locker",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/nep141-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/nep141-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/nep141-locker/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/nep141-locker/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "471c8f1b-efb3-4031-a0c9-ea7c4153f3ab",
+      "namespace": "default",
+      "name": "omni-prover",
+      "title": "Omni Prover",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/omni-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/omni-prover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-prover/omni-prover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/omni-prover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9424e353-e3bd-449f-96e8-b8da2d177743",
+      "namespace": "default",
+      "name": "omni-relayer",
+      "title": "Omni Bridge relayer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/omni-relayer/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/omni-relayer/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/omni-relayer/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/omni-relayer/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "service"
     }
   },
   {
