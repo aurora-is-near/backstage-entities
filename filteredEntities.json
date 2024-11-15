@@ -7064,6 +7064,30 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "aef33f92-eec0-4b28-bfbb-02c4807717f2",
+      "namespace": "default",
+      "name": "sputnikvm-evm",
+      "title": "SputnikVM evm",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/sputnikvm/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/sputnikvm/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/sputnikvm/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/sputnikvm/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/sputnikvm/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "d99ee322-caed-454d-a1c5-1fc065dc8824",
       "namespace": "default",
       "name": "transaction-accounting",
