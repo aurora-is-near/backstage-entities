@@ -6237,6 +6237,30 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "a0094419-a232-4201-a1fb-80dbe537b9db",
+      "namespace": "default",
+      "name": "btc-light-client-btc-types",
+      "title": "BTC Light Client btc-types",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/btc-types/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/btc-light-client-contract/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/btc-light-client-contract/tree/main/btc-types/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/btc-light-client-contract/edit/main/btc-types/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/btc-types/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "21c7d138-9233-41d2-b7e8-47d503c78d03",
       "namespace": "default",
       "name": "btc-light-client-contract",
@@ -6260,6 +6284,30 @@
         "contract:near/mainnet/btc-client.bridge.near",
         "contract:near/mainnet/btc-client-v4.testnet"
       ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "e9168a29-5c52-4715-9905-e8da40ca0f18",
+      "namespace": "default",
+      "name": "btc-light-client-merkle-tools",
+      "title": "BTC Light Client merkle-tools",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/merkle-tools/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/btc-light-client-contract/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/btc-light-client-contract/tree/main/merkle-tools/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/btc-light-client-contract/edit/main/merkle-tools/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/btc-light-client-contract/tree/main/merkle-tools/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "library"
     }
   },
   {
