@@ -507,6 +507,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "497cc96a-0951-4751-8a73-acb594bf1072",
+      "namespace": "default",
+      "name": "aurora-mainnet-0x055707c67977e8217F98f19cFa8aca18B2282D0C",
+      "title": "0x055...2D0C silo-to-silo",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/silo-to-silo/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/silo-to-silo/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/silo-to-silo/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/silo-to-silo/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x055707c67977e8217F98f19cFa8aca18B2282D0C",
+      "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "8de16287-356a-4217-b45d-68d8efe8739f",
       "namespace": "default",
       "name": "aurora-mainnet-0x22A412e9d94Ec8551e184DC268d60237dCADFAb0",
@@ -4773,7 +4801,7 @@
       "uid": "90f65dbf-697d-44d2-be5c-731c71b4dd7b",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "title": "* 0x246...CDE1 ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038 admin",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x051AD3F020274910065Dcb421629cd2e6E5b46c4 admin",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
