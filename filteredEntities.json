@@ -704,6 +704,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "53d7f890-70ac-47c0-832f-33f760071172",
+      "namespace": "default",
+      "name": "aurora-mainnet-0x9FC9944177cd85E7089155a85b4caEbb23c4b6fb",
+      "title": "0x9FC...b6fb aurora-engine-exit-contract",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/aurora-engine-exit-contract/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/aurora-engine-exit-contract/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/aurora-engine-exit-contract/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/aurora-engine-exit-contract/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/aurora-engine-exit-contract/tree/main/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x9FC9944177cd85E7089155a85b4caEbb23c4b6fb",
+      "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "0c89b856-ba42-4103-bfc2-326b39c92e3a",
       "namespace": "default",
       "name": "aurora-mainnet-0xccc2b1aD21666A5847A804a73a41F904C4a4A0Ec",
