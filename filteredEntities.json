@@ -6567,6 +6567,58 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "d4301439-07cf-4e57-868e-93a40a4fccca",
+      "namespace": "default",
+      "name": "defuse-poa-factory",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/defuse-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/defuse-contracts/edit/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/omft.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "d80d1afd-87a7-4713-a145-24fcb44a2c26",
+      "namespace": "default",
+      "name": "defuse-poa-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/defuse-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/defuse-contracts/edit/main/poa-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "2af63788-518b-4733-ae03-c0318351e724",
       "namespace": "default",
       "name": "ed25519-contract",
