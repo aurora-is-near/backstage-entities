@@ -4138,6 +4138,35 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "ac762424-36a4-4d76-a3e9-902a2e029f34",
+      "namespace": "default",
+      "name": "near-mainnet-omft.near",
+      "title": "omft.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/defuse-protocol/defuse-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/defuse-protocol/defuse-contracts/edit/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/defuse-protocol/defuse-contracts/tree/main/poa-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "omft.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "343d1ba7-0019-4df2-8202-c01cc7874260",
       "namespace": "default",
       "name": "near-mainnet-prover.bridge.near",
