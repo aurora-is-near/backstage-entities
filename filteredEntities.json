@@ -454,7 +454,7 @@
       "uid": "9c6dba91-59e3-460b-8777-ce31fc2d9882",
       "namespace": "default",
       "name": "AnpLvniM2yefS5RvLu93yT7oVF97SNZnXqQyPm5Pbenz",
-      "title": "0xE90...5Ccb role-group DEFAULT_ADMIN_ROLE",
+      "title": "0xE90...5Ccb role-group 0x0000000000000000000000000000000000000000000000000000000000000000",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -1073,7 +1073,7 @@
       "uid": "f17226c5-13db-411e-bfbd-8cb879db3cd6",
       "namespace": "default",
       "name": "C1jCGKK7U5YmThKeuxvATgDzE98Xij5Cpw7HDxZmn15W",
-      "title": "0xE90...5Ccb role-group PAUSE_WITHDRAW_ROLE",
+      "title": "0xE90...5Ccb role-group 0xb5c32c5338a4841f17325e04d19d70ce58ad8cd21338b36459d998d0c6d0bc3e",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -4966,6 +4966,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "0b926a24-c375-47cc-a3c4-f1cc7f70a1d8",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0xfca63Bb93825B24C70D127C495602431e3C7BC00",
+      "title": "* 0xfca...BC00 ethereum-mainnet-0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb proof-consumer-address",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
       "networkType": "mainnet"
     }
