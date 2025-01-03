@@ -930,6 +930,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "f1305635-7d1a-429b-a1ac-f0de13ebdefe",
+      "namespace": "default",
+      "name": "C1jCGKK7U5YmThKeuxvATgDzE98Xij5Cpw7HDxZmn15W",
+      "title": "0xE90...5Ccb role-group PAUSE_WITHDRAW_ROLE",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "ae8c8746-4b89-4e35-a2d4-f16708ad8be1",
       "namespace": "default",
       "name": "CAWk5Ruwe9Le4gMK5vnAjZ8qa1C1dsAFWWxJsGDiAkqv",
@@ -4740,6 +4768,36 @@
       "type": "contract-deployment",
       "address": "0xbaA031a1f625A8a50408e3D9Da338fFa245e7C39",
       "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "39626766-bd1a-4e21-86e5-4635f8831819",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4 admin",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/eNear/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/eNear/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/eNear/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "network": "ethereum",
       "networkType": "mainnet"
     }
   },
