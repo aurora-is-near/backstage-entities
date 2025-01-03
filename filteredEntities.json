@@ -4657,36 +4657,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "caa75862-4f51-4673-bf63-63a815b5e3a8",
-      "namespace": "stub",
-      "name": "aurora-1313161560-0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
-      "title": "* 0xB12...0802 aurora-1313161560-0xC2e1751808640ED02e0EC9090fA94e682242E0d8 accepted-token",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/contracts/TokenDistribution.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "aurora",
-        "stub",
-        "contract-state"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
-      "network": "aurora",
-      "networkType": "1313161560"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "196d12ec-8860-4390-b520-f3610f405235",
       "namespace": "stub",
       "name": "aurora-mainnet-0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42",
@@ -4739,6 +4709,36 @@
       "type": "contract-deployment",
       "address": "0xbaA031a1f625A8a50408e3D9Da338fFa245e7C39",
       "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "4f5e85bf-e717-4897-8202-d179908054fa",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x23Ddd3e3692d1861Ed57EDE224608875809e127f admin",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-connector/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-connector/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "network": "ethereum",
       "networkType": "mainnet"
     }
   },
