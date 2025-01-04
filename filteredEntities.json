@@ -62,7 +62,7 @@
       "uid": "2252c008-43ad-42b4-85f0-e18aab041353",
       "namespace": "default",
       "name": "26pmggyPiywuk8owUya6NTZmTeb2cNvmgDJYwZtkoZu5",
-      "title": "0xE90...5Ccb role-group 0xd7098b6e6f71f0e52bfd14f103a5030aaebb02f06ba728cbd568c712c0a2e7e1",
+      "title": "0xE90...5Ccb role-group ADMIN_PAUSE_ROLE",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -79,6 +79,34 @@
     "spec": {
       "type": "role-group",
       "address": "0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "fea6141e-2be5-457f-8328-4ca7bf3dce17",
+      "namespace": "default",
+      "name": "2BDeuCDeDBGG87cA7PqVW9kp7n26WqthHbDYrpuBJzSm",
+      "title": "0xC5E...3a1f role-group DEFAULT_ADMIN_ROLE",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/eth/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "0xC5E985976d9b521904AD96306356ECA0fE4F3a1f",
       "network": "ethereum",
       "networkType": "mainnet"
     }
@@ -164,6 +192,34 @@
       "type": "role-group",
       "address": "0x74ABD625a1132b9b3258313A99828315b10ef864",
       "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "7f38d01b-0781-401c-8c01-1c6214c4f31b",
+      "namespace": "default",
+      "name": "5WtxajkpsNyyE1pU4aCFs8aPUrExVie5RMpdx8xCLURR",
+      "title": "0xC5E...3a1f role-group WHITELISTING_TOKENS_ADMIN_ROLE",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/eth/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "0xC5E985976d9b521904AD96306356ECA0fE4F3a1f",
+      "network": "ethereum",
       "networkType": "mainnet"
     }
   },
@@ -283,6 +339,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "89cec612-0354-43a3-be3e-6c145f03f972",
+      "namespace": "default",
+      "name": "9gy7M1SrVdnb71hN9HdyiJPxQcPeTCfKNbAjS8Vk3VhW",
+      "title": "0xC5E...3a1f role-group PAUSABLE_ADMIN_ROLE",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/eth/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "0xC5E985976d9b521904AD96306356ECA0fE4F3a1f",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "ad19a610-a892-4de7-b8f9-3cef59bae4d3",
       "namespace": "default",
       "name": "9idjhbqNKdDK4BG26QTvmtxH5H9gJK4smYLJ5vM1MmKE",
@@ -370,7 +454,7 @@
       "uid": "fc3a5aad-7e57-4d1e-b3de-ad305f913770",
       "namespace": "default",
       "name": "AnpLvniM2yefS5RvLu93yT7oVF97SNZnXqQyPm5Pbenz",
-      "title": "0xE90...5Ccb role-group DEFAULT_ADMIN_ROLE",
+      "title": "0xE90...5Ccb role-group 0x0000000000000000000000000000000000000000000000000000000000000000",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -905,7 +989,7 @@
       "uid": "a9a7b493-0a4c-4787-ba36-4a8b66100f7f",
       "namespace": "default",
       "name": "BCaukYzgbwJLhkCNdthmvt54pc7TnJycC2F5NhiuaS8M",
-      "title": "0xE90...5Ccb role-group 0xac0c39a5c83dc0f0439e3faa066bf234104d51dfdc9693b11d7ad30f9652c454",
+      "title": "0xE90...5Ccb role-group PAUSE_DEPOSIT_ROLE",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -933,7 +1017,7 @@
       "uid": "f7d52142-3179-4e09-9297-4be1fc6c5b6a",
       "namespace": "default",
       "name": "Bd9HYsrzwRA7VmnYnq7t9BDqHbvQMJk8g9NLvpkggy4q",
-      "title": "0xE90...5Ccb role-group 0x28f5a99355973cc89255b8c4ac88405f27c78ded7608b040ee77a8bdf44d15e2",
+      "title": "0xE90...5Ccb role-group WHITELIST_ADMIN_ROLE",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -958,10 +1042,38 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "99095de8-e013-4a7d-a93a-1aa8e1aedb8e",
+      "namespace": "default",
+      "name": "BfdUbqshb8HZpMes17nvNjM4GZKyXAJSRKBGYGcs8Fpp",
+      "title": "0xC5E...3a1f role-group UNPAUSABLE_ADMIN_ROLE",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/eth/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "role-group",
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "0xC5E985976d9b521904AD96306356ECA0fE4F3a1f",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "f1305635-7d1a-429b-a1ac-f0de13ebdefe",
       "namespace": "default",
       "name": "C1jCGKK7U5YmThKeuxvATgDzE98Xij5Cpw7HDxZmn15W",
-      "title": "0xE90...5Ccb role-group PAUSE_WITHDRAW_ROLE",
+      "title": "0xE90...5Ccb role-group 0xb5c32c5338a4841f17325e04d19d70ce58ad8cd21338b36459d998d0c6d0bc3e",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
