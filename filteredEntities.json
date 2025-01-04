@@ -90,7 +90,7 @@
       "uid": "fea6141e-2be5-457f-8328-4ca7bf3dce17",
       "namespace": "default",
       "name": "2BDeuCDeDBGG87cA7PqVW9kp7n26WqthHbDYrpuBJzSm",
-      "title": "0xC5E...3a1f role-group 0x0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "0xC5E...3a1f role-group DEFAULT_ADMIN_ROLE",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
@@ -342,7 +342,7 @@
       "uid": "89cec612-0354-43a3-be3e-6c145f03f972",
       "namespace": "default",
       "name": "9gy7M1SrVdnb71hN9HdyiJPxQcPeTCfKNbAjS8Vk3VhW",
-      "title": "0xC5E...3a1f role-group 0x1e1db0d9c63b4a23ec134ff71a2f56610c32f638cbff81e96e14734c4daf0b4d",
+      "title": "0xC5E...3a1f role-group PAUSABLE_ADMIN_ROLE",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/eth/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
@@ -4796,6 +4796,66 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "c1dcf448-c53b-4663-89b0-79683090819e",
+      "namespace": "stub",
+      "name": "aurora-1313161560-0x01E23e651e1a49A0A04c4C3d9C3598449aC353E2",
+      "title": "* 0x01E...53E2 aurora-1313161560-0xC2e1751808640ED02e0EC9090fA94e682242E0d8 sale-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/contracts/TokenDistribution.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "aurora",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x01E23e651e1a49A0A04c4C3d9C3598449aC353E2",
+      "network": "aurora",
+      "networkType": "1313161560"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "f5405b5e-b95f-4c01-9801-202dada265ff",
+      "namespace": "stub",
+      "name": "aurora-1313161560-0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
+      "title": "* 0xB12...0802 aurora-1313161560-0xC2e1751808640ED02e0EC9090fA94e682242E0d8 accepted-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/uniswap-v3-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/uniswap-v3-contracts/blob/main/contracts/TokenDistribution.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "aurora",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
+      "network": "aurora",
+      "networkType": "1313161560"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "196d12ec-8860-4390-b520-f3610f405235",
       "namespace": "stub",
       "name": "aurora-mainnet-0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42",
@@ -4906,36 +4966,6 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
-      "network": "ethereum",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "c0cae34b-eead-4882-b3de-25452794ca72",
-      "namespace": "stub",
-      "name": "ethereum-mainnet-0xfca63Bb93825B24C70D127C495602431e3C7BC00",
-      "title": "* 0xfca...BC00 ethereum-mainnet-0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb proof-consumer-address",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "ethereum",
-        "stub",
-        "contract-state"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
       "networkType": "mainnet"
     }
