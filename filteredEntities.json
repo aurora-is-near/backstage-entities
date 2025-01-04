@@ -62,7 +62,7 @@
       "uid": "2252c008-43ad-42b4-85f0-e18aab041353",
       "namespace": "default",
       "name": "26pmggyPiywuk8owUya6NTZmTeb2cNvmgDJYwZtkoZu5",
-      "title": "0xE90...5Ccb role-group ADMIN_PAUSE_ROLE",
+      "title": "0xE90...5Ccb role-group 0xd7098b6e6f71f0e52bfd14f103a5030aaebb02f06ba728cbd568c712c0a2e7e1",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -258,7 +258,7 @@
       "uid": "4c44ccdb-a3b4-44b2-8ec1-0b89f068b48a",
       "namespace": "default",
       "name": "9GbGECVLXhoqRym5mrGkEhCnzCw4Th1axaeVarS6VMV6",
-      "title": "0xE90...5Ccb role-group PAUSE_SET_METADATA_ROLE",
+      "title": "0xE90...5Ccb role-group 0x85f49d3768442d7efa364f2f8ba56db92f2532340c2a999255efb62b980e73ba",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -905,7 +905,7 @@
       "uid": "a9a7b493-0a4c-4787-ba36-4a8b66100f7f",
       "namespace": "default",
       "name": "BCaukYzgbwJLhkCNdthmvt54pc7TnJycC2F5NhiuaS8M",
-      "title": "0xE90...5Ccb role-group PAUSE_DEPOSIT_ROLE",
+      "title": "0xE90...5Ccb role-group 0xac0c39a5c83dc0f0439e3faa066bf234104d51dfdc9693b11d7ad30f9652c454",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -933,7 +933,7 @@
       "uid": "f7d52142-3179-4e09-9297-4be1fc6c5b6a",
       "namespace": "default",
       "name": "Bd9HYsrzwRA7VmnYnq7t9BDqHbvQMJk8g9NLvpkggy4q",
-      "title": "0xE90...5Ccb role-group WHITELIST_ADMIN_ROLE",
+      "title": "0xE90...5Ccb role-group 0x28f5a99355973cc89255b8c4ac88405f27c78ded7608b040ee77a8bdf44d15e2",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -1504,7 +1504,8 @@
       },
       "tags": [
         "contract-address",
-        "ethereum"
+        "ethereum",
+        "rbac"
       ]
     },
     "spec": {
@@ -4802,6 +4803,36 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "5388eda5-5a61-48f5-a92c-f55267bfba50",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038 admin",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/eth/nearprover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "2de9a150-fc28-4bd0-99a0-4c83940421fc",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
@@ -4823,36 +4854,6 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
-      "network": "ethereum",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "8365141c-a24a-4844-9242-7111cdd00189",
-      "namespace": "stub",
-      "name": "ethereum-mainnet-0xfca63Bb93825B24C70D127C495602431e3C7BC00",
-      "title": "* 0xfca...BC00 ethereum-mainnet-0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb proof-consumer-address",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "ethereum",
-        "stub",
-        "contract-state"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
       "networkType": "mainnet"
     }
