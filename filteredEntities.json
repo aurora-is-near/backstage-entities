@@ -454,7 +454,7 @@
       "uid": "fc3a5aad-7e57-4d1e-b3de-ad305f913770",
       "namespace": "default",
       "name": "AnpLvniM2yefS5RvLu93yT7oVF97SNZnXqQyPm5Pbenz",
-      "title": "0xE90...5Ccb role-group DEFAULT_ADMIN_ROLE",
+      "title": "0xE90...5Ccb role-group 0x0000000000000000000000000000000000000000000000000000000000000000",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
@@ -4877,6 +4877,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42",
+      "network": "aurora",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "42bb0a1c-292d-4a11-8bd5-bd54ac9811e3",
+      "namespace": "stub",
+      "name": "aurora-mainnet-0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+      "title": "* 0x8BE...9f79 aurora-mainnet-0xccc2b1aD21666A5847A804a73a41F904C4a4A0Ec aurora-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-staking-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-staking-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-staking-contracts/blob/main/contracts/JetStaking/JetStakingV3.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "aurora",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
       "network": "aurora",
       "networkType": "mainnet"
     }
