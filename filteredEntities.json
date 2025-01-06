@@ -4915,36 +4915,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "dd00215f-8093-48ab-8e3e-df00dd1f31fb",
-      "namespace": "stub",
-      "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "title": "* 0x246...CDE1 ethereum-mainnet-0x6BFaD42cFC4EfC96f529D786D643Ff4A8B89FA52 admin",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/eth-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/eth-connector/edit/master/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/eth-connector/tree/master/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "ethereum",
-        "stub",
-        "contract-state"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "network": "ethereum",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "2de9a150-fc28-4bd0-99a0-4c83940421fc",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
@@ -4966,6 +4936,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "cfd1c76d-5e47-4b4f-bec8-5fcc9b6235c6",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0xfca63Bb93825B24C70D127C495602431e3C7BC00",
+      "title": "* 0xfca...BC00 ethereum-mainnet-0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb proof-consumer-address",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/erc20-bridge-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/erc20-bridge-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
       "networkType": "mainnet"
     }
