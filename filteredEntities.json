@@ -8235,6 +8235,56 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "e99ae664-7bc5-493b-8aea-37d7b29ba961",
+      "namespace": "default",
+      "name": "omni-bridge",
+      "title": "OmniBridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-bridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-bridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-bridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-bridge/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "80d3beb6-bbd9-4447-a590-a38e20cccbf9",
+      "namespace": "default",
+      "name": "omni-evm-bridge-token-factory",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/evm/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/evm/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/evm/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/evm/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "471c8f1b-efb3-4031-a0c9-ea7c4153f3ab",
       "namespace": "default",
       "name": "omni-prover",
@@ -8279,6 +8329,77 @@
     },
     "spec": {
       "type": "service"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "4ce440b7-f6e9-4dc9-af0d-28d60166beb1",
+      "namespace": "default",
+      "name": "omni-solana-bridge-token-factory",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/solana/bridge_token_factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/solana/bridge_token_factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/solana/bridge_token_factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/solana/bridge_token_factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "solana"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "93c8f8f0-f2fb-4725-8407-3ba27c5b3ffe",
+      "namespace": "default",
+      "name": "omni-token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-token/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-token/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-token/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-token/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "60be5ba9-518b-466a-8381-14bb3916ca80",
+      "namespace": "default",
+      "name": "omni-types",
+      "title": "Omni Bridge Protocol omni-types",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-types/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-types/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-types/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-types/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "library"
     }
   },
   {
@@ -8627,6 +8748,32 @@
     },
     "spec": {
       "type": "contract-backend"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "ec4678ac-7748-4397-b2df-19f5cc6ab3f6",
+      "namespace": "default",
+      "name": "wormhole-omni-prover-proxy",
+      "title": "Wormhole Omni Prover Proxy",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/wormhole-omni-prover-proxy/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/omni-bridge/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/wormhole-omni-prover-proxy/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/omni-bridge/edit/main/near/omni-prover/wormhole-omni-prover-proxy/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/omni-bridge/tree/main/near/omni-prover/wormhole-omni-prover-proxy/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": []
     }
   },
   {
