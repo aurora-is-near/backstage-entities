@@ -2220,202 +2220,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "b9fbd7ed-8e52-4a0d-86a2-4052d1f5a6dc",
-      "namespace": "default",
-      "name": "near-controller.aurora-DAO",
-      "title": "controller.aurora role-group DAO",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "825485d9-b3c1-41c8-a762-017c24290d9e",
-      "namespace": "default",
-      "name": "near-controller.aurora-Deployer",
-      "title": "controller.aurora role-group Deployer",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "24bc56cc-6f95-4e0f-8613-39eecde40f0f",
-      "namespace": "default",
-      "name": "near-controller.aurora-Pauser",
-      "title": "controller.aurora role-group Pauser",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "63cbc619-2663-4c07-9606-708c99a7a2e2",
-      "namespace": "default",
-      "name": "near-controller.aurora-Releaser",
-      "title": "controller.aurora role-group Releaser",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "ff7ca79f-2dca-42f9-b874-81f3d7ba4942",
-      "namespace": "default",
-      "name": "near-controller.aurora-super_admins",
-      "title": "controller.aurora role-group super_admins",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "bb48e01f-1b51-4b71-b2bf-4b04cc55a976",
-      "namespace": "default",
-      "name": "near-controller.aurora-Unpauser",
-      "title": "controller.aurora role-group Unpauser",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "1b16eed3-64cd-467d-b479-df7d1b84d517",
-      "namespace": "default",
-      "name": "near-controller.aurora-Updater",
-      "title": "controller.aurora role-group Updater",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "5c2c11ca-c31d-4272-ae73-529e76eca72f",
       "namespace": "default",
       "name": "near-ctl-intents.near-DAO",
@@ -4684,35 +4488,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7211fff4-f302-461d-83f7-afdbd983562a",
-      "namespace": "default",
-      "name": "near-mainnet-aurora",
-      "title": "aurora",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "0c686fd0-08f8-4e44-928e-41d92290cad8",
       "namespace": "default",
       "name": "near-mainnet-btc-client.bridge.near",
@@ -5544,34 +5319,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "96a09245-db3a-48ad-8683-45601c31882d",
-      "namespace": "default",
-      "name": "near-testnet-aurora",
-      "title": "aurora",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "aurora",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "68f3e5fd-322e-4712-a2b6-efb5358625ff",
       "namespace": "default",
       "name": "near-testnet-client-eth2.goerli.testnet",
@@ -5958,36 +5705,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "0f9a57d0-85d8-42bc-9c77-428e91fbc0ac",
-      "namespace": "stub",
-      "name": "near-mainnet-aurora-borealis.sputnik-dao.near",
-      "title": "* aurora-borealis.sputnik-dao.near member",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "near",
-        "stub",
-        "locked"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "aurora-borealis.sputnik-dao.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "2981d9ff-1a34-45ac-9177-e7efa8242e1f",
       "namespace": "stub",
       "name": "near-mainnet-bridge-validator.sputnik-dao.near",
@@ -6011,38 +5728,6 @@
     "spec": {
       "type": "contract-deployment",
       "address": "bridge-validator.sputnik-dao.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "dfa3fba4-c190-409d-aaef-2a0ff9de42a8",
-      "namespace": "stub",
-      "name": "near-mainnet-controller.aurora",
-      "title": "* controller.aurora get-owner",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "near",
-        "stub",
-        "contract-state",
-        "rbac",
-        "locked"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "controller.aurora",
       "network": "near",
       "networkType": "mainnet"
     }
@@ -6198,37 +5883,6 @@
       "address": "wrap.near",
       "network": "near",
       "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "1a3e2690-a8fd-4aa7-8283-667ae04b8248",
-      "namespace": "stub",
-      "name": "near-testnet-controller.aurora",
-      "title": "* controller.aurora get-owner",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "blockchain-address",
-        "near",
-        "stub",
-        "contract-state",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "controller.aurora",
-      "network": "near",
-      "networkType": "testnet"
     }
   },
   {
@@ -6451,35 +6105,6 @@
     "spec": {
       "type": "contract",
       "deployedAt": []
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "Component",
-    "metadata": {
-      "uid": "7d817dca-bbec-4860-92c5-1cf98c1cfd5c",
-      "namespace": "default",
-      "name": "aurora-engine",
-      "title": "Aurora (engine)",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "contract",
-      "deployedAt": [
-        "contract:near/mainnet/aurora",
-        "contract:near/testnet/aurora"
-      ]
     }
   },
   {
@@ -8072,7 +7697,8 @@
     "spec": {
       "type": "contract",
       "deployedAt": [
-        "contract:near/mainnet/intents.near"
+        "contract:near/mainnet/intents.near",
+        "contract:near/mainnet/staging-intents.near"
       ]
     }
   },
