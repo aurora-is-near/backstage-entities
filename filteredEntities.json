@@ -8990,6 +8990,30 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "9ea82f48-934d-4b98-b6ed-7a72c99ff257",
+      "namespace": "default",
+      "name": "sputnikvm-core",
+      "title": "SputnikVM core",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/core/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-evm/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-evm/tree/master/core/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-evm/edit/master/core/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/core/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "c6809f85-3c58-48da-8e04-3443cd0b7988",
       "namespace": "default",
       "name": "sputnikvm-evm",
@@ -9000,6 +9024,54 @@
         "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-evm/tree/master/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-evm/edit/master/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "1ae027ea-57f3-4d79-980e-aab375c1d846",
+      "namespace": "default",
+      "name": "sputnikvm-gasometer",
+      "title": "SputnikVM gasometer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/gasometer/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-evm/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-evm/tree/master/gasometer/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-evm/edit/master/gasometer/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/gasometer/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "ethereum"
+      ]
+    },
+    "spec": {
+      "type": "library"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "e8b57082-4a2f-4da6-a7c5-9fdd9fd4f02d",
+      "namespace": "default",
+      "name": "sputnikvm-runtime",
+      "title": "SputnikVM runtime",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/runtime/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-evm/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-evm/tree/master/runtime/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-evm/edit/master/runtime/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-evm/tree/master/runtime/",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
