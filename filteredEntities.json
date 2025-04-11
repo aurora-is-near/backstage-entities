@@ -6155,7 +6155,7 @@
       "uid": "8fcc9f96-6f4d-466b-b9ac-fcc7b31c340f",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "title": "* 0x246...CDE1 ethereum-mainnet-0x051AD3F020274910065Dcb421629cd2e6E5b46c4 admin",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038 admin",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
@@ -9100,6 +9100,151 @@
       "type": "contract",
       "deployedAt": [
         "contract:aurora/mainnet/0x055707c67977e8217F98f19cFa8aca18B2282D0C"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "bd2d3a99-9fc9-4e3b-b45f-a11a0b33ef38",
+      "namespace": "default",
+      "name": "star-plunder-community",
+      "title": "Star Plunder Community",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/star-plunder-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/contracts/SPCommunity.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "star-plunder",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/testnet/0x3Fc9709b4da02eA1498d4941D24C4bf32988f818"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "1473cee0-acee-409c-a57c-93b74772aaca",
+      "namespace": "default",
+      "name": "star-plunder-match",
+      "title": "Star Plunder Match",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/star-plunder-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/contracts/SPMatch.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "star-plunder",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/testnet/0xC5Ca6AD13233D5Aaa7e12D1a01bE47bf812C77dC"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "cd2da6d1-f804-4bdc-88c9-dbfe42a0d75a",
+      "namespace": "default",
+      "name": "star-plunder-registry",
+      "title": "Star Plunder Registry",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/star-plunder-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/contracts/SPRegistry.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "star-plunder",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/testnet/0x19C199dA625F7A1626523A63Bc947Cd286aD229A"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "4217085c-1311-49b1-967e-efcc4f36b152",
+      "namespace": "default",
+      "name": "star-plunder-silver",
+      "title": "Star Plunder Silver",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/star-plunder-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/contracts/SPSilver.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "star-plunder",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/testnet/0x7efB920C933a3a6DA6964668bA277c8204987aDd"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "2e18e7b4-20e6-468e-ad21-b8bc053b9e25",
+      "namespace": "default",
+      "name": "star-plunder-treasury",
+      "title": "Star Plunder Treasury",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/star-plunder-contracts/tree/main/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/star-plunder-contracts/edit/main/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/star-plunder-contracts/blob/main/contracts/SPTreasury.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "star-plunder",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/testnet/0xb12914a25b5C1f8d4Cfbc18dF99D74D7A7632265"
       ]
     }
   },
