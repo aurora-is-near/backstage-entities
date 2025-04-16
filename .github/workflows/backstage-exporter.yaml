@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - uses: aurora-is-near/backstage-blockchain-actions@v1
-        id: backstage-exporter
+        id: export
         with:
           helper: backstage-export
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -27,3 +27,43 @@ jobs:
           git config user.email 'security@aurora.dev'
           git diff --quiet || (git add . && git commit -m "chore(backstage): 🥷🏽 automatic re-export")
           git push
+
+      - name: Send Datadog Metric
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          DD_API_KEY: ${{ secrets.DD_API_KEY }}
+        run: |
+          if [ "${{ steps.export.conclusion }}" == "failure" ]; then
+            export dd_metric_value=1
+          else
+            export dd_metric_value=0
+          fi
+
+          export NOW="$(date +%s)"
+          curl -X POST "https://api.datadoghq.eu/api/v2/series" \
+          -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          -H "DD-API-KEY: ${{secrets.DD_API_KEY}}" \
+          -d @- << EOF
+          {
+            "series": [
+              {
+                "metric": "backstage.exports",
+                "type": 1,
+                "points": [
+                  {
+                    "timestamp": $NOW,
+                    "value": $dd_metric_value
+                  }
+                ],
+                "resources": [
+                  {
+                    "name": "backstage-entities",
+                    "type": "component"
+                  }
+                ]
+              }
+            ]
+          }
+          EOF
