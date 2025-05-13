@@ -1406,34 +1406,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "242b0759-d032-4a89-9f08-f677d6930f32",
-      "namespace": "default",
-      "name": "ethereum-goerli-0xb2bCc9Ee9BBbC55ff3c0F28e530c1cf281d993a0",
-      "title": "0xb2b...93a0 aurora-token",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/token/tree/main/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/token/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/token/tree/main/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/token/edit/main/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/token/tree/main/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "ethereum"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "0xb2bCc9Ee9BBbC55ff3c0F28e530c1cf281d993a0",
-      "network": "ethereum",
-      "networkType": "goerli"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "6ee8c99b-146a-4b73-bb96-f0f71a8ed051",
       "namespace": "default",
       "name": "ethereum-goerli-0xC115851CA60Aed2CCc6EE3D5343F590834e4a3aB",
@@ -7790,8 +7762,7 @@
     "spec": {
       "type": "contract",
       "deployedAt": [
-        "contract:ethereum/mainnet/0xAaAAAA20D9E0e2461697782ef11675f668207961",
-        "contract:ethereum/goerli/0xb2bCc9Ee9BBbC55ff3c0F28e530c1cf281d993a0"
+        "contract:ethereum/mainnet/0xAaAAAA20D9E0e2461697782ef11675f668207961"
       ]
     }
   },
