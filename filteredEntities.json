@@ -2791,8 +2791,7 @@
       },
       "tags": [
         "contract-address",
-        "near",
-        "has-unknown"
+        "near"
       ]
     },
     "spec": {
@@ -3904,8 +3903,7 @@
       },
       "tags": [
         "contract-address",
-        "near",
-        "has-unknown"
+        "near"
       ]
     },
     "spec": {
@@ -3994,7 +3992,8 @@
       "tags": [
         "contract-address",
         "near",
-        "rbac"
+        "rbac",
+        "has-unknown"
       ]
     },
     "spec": {
@@ -4302,6 +4301,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "df8967d3-d7aa-4737-a1d6-e777a851b8bc",
+      "namespace": "stub",
+      "name": "near-mainnet-fees.deposit.aurora",
+      "title": "* fees.deposit.aurora get-fees-contract-id",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fees.deposit.aurora",
       "network": "near",
       "networkType": "mainnet"
     }
