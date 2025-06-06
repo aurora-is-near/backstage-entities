@@ -4490,7 +4490,8 @@
       "tags": [
         "contract-address",
         "near",
-        "rbac"
+        "rbac",
+        "has-unknown"
       ]
     },
     "spec": {
@@ -4772,36 +4773,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "9aafd89e-f050-4813-a5fe-b77227237beb",
-      "namespace": "stub",
-      "name": "near-mainnet-client-eth2.bridge.near",
-      "title": "* client-eth2.bridge.near",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "stub",
-        "locked"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "client-eth2.bridge.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "1f428d91-387a-477a-8e79-5d7f79414f97",
       "namespace": "stub",
       "name": "near-mainnet-ctl-intents.near",
@@ -4887,6 +4858,68 @@
       "address": "rainbowbridge.sputnik-dao.near",
       "network": "near",
       "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "4cb59b97-609a-47c4-bb08-29e8d3e632c1",
+      "namespace": "stub",
+      "name": "near-mainnet-wrap.near",
+      "title": "* wrap.near get-wnear-account-id",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "wrap.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "8bab987a-781f-4da5-b2b0-be1aff70e004",
+      "namespace": "stub",
+      "name": "near-testnet-goerli-dao.sputnikv2.testnet",
+      "title": "* goerli-dao.sputnikv2.testnet get-trusted-signer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "goerli-dao.sputnikv2.testnet",
+      "network": "near",
+      "networkType": "testnet"
     }
   },
   {
