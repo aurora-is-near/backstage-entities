@@ -2198,6 +2198,36 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "f4ea0c49-b3d4-4d1a-840a-4377cda1d91c",
+      "namespace": "default",
+      "name": "near-mainnet-fast.bridge.near",
+      "title": "fast.bridge.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fast.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "4c8690d7-cdc7-4bf0-bf33-22e9a2a28536",
       "namespace": "default",
       "name": "near-mainnet-ft-locker.bridge.near",
@@ -2677,6 +2707,35 @@
     "spec": {
       "type": "contract-deployment",
       "address": "factory.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "186a397d-49be-4cc1-a1b6-1d273a2109ac",
+      "namespace": "default",
+      "name": "near-testnet-fastbridge.testnet",
+      "title": "fastbridge.testnet",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fastbridge.testnet",
       "network": "near",
       "networkType": "testnet"
     }
