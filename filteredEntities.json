@@ -5849,6 +5849,37 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "40f0163b-f712-4ee2-917f-eca25cfa6da1",
+      "namespace": "stub",
+      "name": "near-mainnet-ctl-intents.near",
+      "title": "* ctl-intents.near member",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "rbac",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "2b6644e0-fe56-492f-ab35-9e0ce7201d03",
       "namespace": "stub",
       "name": "near-mainnet-fees.deposit.aurora",
