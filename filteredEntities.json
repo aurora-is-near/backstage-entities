@@ -1965,10 +1965,66 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "6d70f91b-dac9-4b84-87c8-821881c051fd",
+      "namespace": "default",
+      "name": "near-controller.aurora-DAO",
+      "title": "controller.aurora role-group DAO",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "controller.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "39210416-4d2c-4c94-b8dc-6a3e7165abe6",
       "namespace": "default",
       "name": "near-controller.aurora-Deployer",
       "title": "controller.aurora role-group Deployer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "controller.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "351db402-0359-4695-a2d5-ae6b3e148ba2",
+      "namespace": "default",
+      "name": "near-controller.aurora-Pauser",
+      "title": "controller.aurora role-group Pauser",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
@@ -2021,6 +2077,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "306932b4-4a77-4d0c-a599-ae789a9dd140",
+      "namespace": "default",
+      "name": "near-controller.aurora-super_admins",
+      "title": "controller.aurora role-group super_admins",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "controller.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "9b59a7c1-8f92-4bd0-9fb8-05fea2d55720",
       "namespace": "default",
       "name": "near-controller.aurora-Unpauser",
@@ -2041,6 +2125,258 @@
     "spec": {
       "type": "role-group",
       "address": "controller.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "877ee76c-ade2-448b-8f39-54ec2d563c7f",
+      "namespace": "default",
+      "name": "near-controller.aurora-Updater",
+      "title": "controller.aurora role-group Updater",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "controller.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "3ac5776e-a313-42da-b4cd-85250cf2095a",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-DAO",
+      "title": "ctl-intents.near role-group DAO",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "efe5f7d2-733c-4ac6-bc1a-076fbdaac22d",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Deployer",
+      "title": "ctl-intents.near role-group Deployer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "cf5ce600-8cce-4cb6-83b7-de7740ad2fd1",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Downgrader",
+      "title": "ctl-intents.near role-group Downgrader",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "c7503592-1a7a-44ef-8c0e-43700ade6ec4",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Pauser",
+      "title": "ctl-intents.near role-group Pauser",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "ef47bb64-8d3d-488d-8388-a226b54cce57",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Releaser",
+      "title": "ctl-intents.near role-group Releaser",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "a37573b3-614c-4f6b-8a02-756e3ec38f95",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-super_admins",
+      "title": "ctl-intents.near role-group super_admins",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "73340f68-d3f2-441d-a253-8c3348d8f5b6",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Unpauser",
+      "title": "ctl-intents.near role-group Unpauser",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "a4aacdaa-f767-4772-b72c-cd05303e44c9",
+      "namespace": "default",
+      "name": "near-ctl-intents.near-Updater",
+      "title": "ctl-intents.near role-group Updater",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "ctl-intents.near",
       "network": "near",
       "networkType": "mainnet"
     }
