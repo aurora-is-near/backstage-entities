@@ -6216,6 +6216,36 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "dfb59703-c4f2-48ed-8c14-f9b2afae4b82",
+      "namespace": "stub",
+      "name": "near-mainnet-omni.bridge.near",
+      "title": "* omni.bridge.near member",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "omni.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "4b922a23-67d0-4949-b9b6-7d9b177378f6",
       "namespace": "stub",
       "name": "near-mainnet-rainbowbridge.sputnik-dao.near",
@@ -6293,7 +6323,8 @@
         "blockchain-address",
         "near",
         "stub",
-        "contract-state"
+        "contract-state",
+        "has-unknown"
       ]
     },
     "spec": {
