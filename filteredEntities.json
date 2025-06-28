@@ -1573,6 +1573,202 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "5fe341e0-c9e4-4016-9b64-2df09915ef5e",
+      "namespace": "default",
+      "name": "near-e-near.near-DAO",
+      "title": "e-near.near role-group DAO",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "fbaa4e4d-de91-4f0e-9e19-9b9a6cac0e41",
+      "namespace": "default",
+      "name": "near-e-near.near-PauseManager",
+      "title": "e-near.near role-group PauseManager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "6c4425a6-4dfc-4057-8101-c387b3185533",
+      "namespace": "default",
+      "name": "near-e-near.near-super_admins",
+      "title": "e-near.near role-group super_admins",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "fa6143f1-942d-475c-b78b-fedab6d6201f",
+      "namespace": "default",
+      "name": "near-e-near.near-UnrestrictedFinaliseEthToNearTransfer",
+      "title": "e-near.near role-group UnrestrictedFinaliseEthToNearTransfer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "bf977ad5-1134-484d-9f83-5f359ecbfad8",
+      "namespace": "default",
+      "name": "near-e-near.near-UnrestrictedMigrateToEthereum",
+      "title": "e-near.near role-group UnrestrictedMigrateToEthereum",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "ced215f8-7a4b-4457-8702-d41a4115ade0",
+      "namespace": "default",
+      "name": "near-e-near.near-UpgradableCodeDeployer",
+      "title": "e-near.near role-group UpgradableCodeDeployer",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "0181a0fd-ce25-4703-b9da-b7c72c2add97",
+      "namespace": "default",
+      "name": "near-e-near.near-UpgradableCodeStager",
+      "title": "e-near.near role-group UpgradableCodeStager",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "e-near.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "2c907fb2-51e5-4705-bdc8-68339fd4cddc",
       "namespace": "default",
       "name": "near-mainnet-e-near.near",
@@ -1588,6 +1784,7 @@
       "tags": [
         "contract-address",
         "near",
+        "rbac",
         "locked"
       ]
     },
@@ -1815,6 +2012,7 @@
       "tags": [
         "contract-address",
         "near",
+        "rbac",
         "has-unknown"
       ]
     },
@@ -1862,7 +2060,7 @@
       "uid": "8fcc9f96-6f4d-466b-b9ac-fcc7b31c340f",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "title": "* 0x246...CDE1 ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038 admin",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x051AD3F020274910065Dcb421629cd2e6E5b46c4 admin",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
@@ -2001,6 +2199,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "ctl-intents.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "f6ce4443-e584-42fe-b4de-9ea48455a60b",
+      "namespace": "stub",
+      "name": "near-mainnet-intents.sputnik-dao.near",
+      "title": "* intents.sputnik-dao.near member",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/defuse/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/defuse/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "intents.sputnik-dao.near",
       "network": "near",
       "networkType": "mainnet"
     }
