@@ -3,34 +3,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "6fe7863e-b440-433d-806a-988b27aa7ec6",
-      "namespace": "default",
-      "name": "21J4WZssuqWG8redzzMramgRi5yZvxEH848NVMGL8zBn",
-      "title": "client-eth2.bridge.near role-group UnrestrictedSubmitLightClientUpdate",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "client-eth2.bridge.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "fbef1f34-748d-43c6-a73a-4a1aca4cea6b",
       "namespace": "default",
       "name": "26pmggyPiywuk8owUya6NTZmTeb2cNvmgDJYwZtkoZu5",
@@ -927,6 +899,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "3974e54b-52c1-4ffe-adb8-942da68688f0",
+      "namespace": "default",
+      "name": "DxsmuczYzA2ifdwSsp5LjB4oMbGnoYV5DEH9CSqycmw3",
+      "title": "client-eth2.goerli.testnet role-group UnrestrictedSubmitLightClientUpdate",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "2cf20a9d-8fc8-48d7-a19c-0ebeef794117",
       "namespace": "default",
       "name": "ethereum-goerli-0x00763f30eEB0eEF506907e18f2a6ceC2DAb30Df8",
@@ -1377,6 +1377,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "ded32a6f-3ea0-4509-b120-86ed1e78602a",
+      "namespace": "default",
+      "name": "FmGgkwTYrveRZTxzmN5M5GKWD8hvqD8WSFsCG2tFLLUF",
+      "title": "client-eth2.goerli.testnet role-group UnrestrictedSubmitExecutionHeader",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "role-group",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "role-group",
+      "address": "client-eth2.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "00d01d53-23e8-4b5a-a8b0-9cfe1ec43021",
       "namespace": "default",
       "name": "near-btc-client.bridge.near-CodeDeployer",
@@ -1601,15 +1629,15 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "157b9603-5c7e-48e5-a4c1-8049b538dee9",
+      "uid": "3bb29b05-4c0e-4521-8476-9e162f49d75d",
       "namespace": "default",
-      "name": "near-client-eth2.bridge.near-DAO",
-      "title": "client-eth2.bridge.near role-group DAO",
+      "name": "near-client-eth2.goerli.testnet-DAO",
+      "title": "client-eth2.goerli.testnet role-group DAO",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1620,24 +1648,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "client-eth2.bridge.near",
+      "address": "client-eth2.goerli.testnet",
       "network": "near",
-      "networkType": "mainnet"
+      "networkType": "testnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2f1c8fbd-30cb-4fea-a2b7-b6787dfd7d72",
+      "uid": "e4139210-e343-488b-a072-acda0b3a499c",
       "namespace": "default",
-      "name": "near-client-eth2.bridge.near-PauseManager",
-      "title": "client-eth2.bridge.near role-group PauseManager",
+      "name": "near-client-eth2.goerli.testnet-PauseManager",
+      "title": "client-eth2.goerli.testnet role-group PauseManager",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1648,24 +1676,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "client-eth2.bridge.near",
+      "address": "client-eth2.goerli.testnet",
       "network": "near",
-      "networkType": "mainnet"
+      "networkType": "testnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "444d1a04-1e28-4383-9859-a9bbed14efba",
+      "uid": "6c5836e2-3686-4c4c-91dd-870316c535e7",
       "namespace": "default",
-      "name": "near-client-eth2.bridge.near-super_admins",
-      "title": "client-eth2.bridge.near role-group super_admins",
+      "name": "near-client-eth2.goerli.testnet-super_admins",
+      "title": "client-eth2.goerli.testnet role-group super_admins",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1676,24 +1704,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "client-eth2.bridge.near",
+      "address": "client-eth2.goerli.testnet",
       "network": "near",
-      "networkType": "mainnet"
+      "networkType": "testnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "c9325d60-5cdc-4319-b193-b3ff04aada4d",
+      "uid": "4ed68211-1316-476a-b89d-f55e4cc78bfa",
       "namespace": "default",
-      "name": "near-client-eth2.bridge.near-UnrestrictedSubmitExecutionHeader",
-      "title": "client-eth2.bridge.near role-group UnrestrictedSubmitExecutionHeader",
+      "name": "near-client-eth2.goerli.testnet-UpgradableCodeDeployer",
+      "title": "client-eth2.goerli.testnet role-group UpgradableCodeDeployer",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1704,24 +1732,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "client-eth2.bridge.near",
+      "address": "client-eth2.goerli.testnet",
       "network": "near",
-      "networkType": "mainnet"
+      "networkType": "testnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "66307cf1-fc9b-41bd-b29e-49c6ecf9d4b9",
+      "uid": "4d4c291b-1c6c-4f6a-b5ec-a12a4414adc6",
       "namespace": "default",
-      "name": "near-client-eth2.bridge.near-UpgradableCodeDeployer",
-      "title": "client-eth2.bridge.near role-group UpgradableCodeDeployer",
+      "name": "near-client-eth2.goerli.testnet-UpgradableCodeStager",
+      "title": "client-eth2.goerli.testnet role-group UpgradableCodeStager",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1732,37 +1760,9 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "client-eth2.bridge.near",
+      "address": "client-eth2.goerli.testnet",
       "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "78b1dca5-5dd3-49db-a8a4-727e825a2e51",
-      "namespace": "default",
-      "name": "near-client-eth2.bridge.near-UpgradableCodeStager",
-      "title": "client-eth2.bridge.near role-group UpgradableCodeStager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "client-eth2.bridge.near",
-      "network": "near",
-      "networkType": "mainnet"
+      "networkType": "testnet"
     }
   },
   {
@@ -3594,7 +3594,8 @@
       "tags": [
         "contract-address",
         "near",
-        "rbac"
+        "rbac",
+        "has-unknown"
       ]
     },
     "spec": {
@@ -4516,37 +4517,6 @@
     "spec": {
       "type": "contract-deployment",
       "address": "aurora-borealis.sputnik-dao.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "5e78408c-9042-4a45-8486-18e2fa58480b",
-      "namespace": "stub",
-      "name": "near-mainnet-client-eth2.bridge.near",
-      "title": "* client-eth2.bridge.near",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "stub",
-        "rbac",
-        "locked"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "client-eth2.bridge.near",
       "network": "near",
       "networkType": "mainnet"
     }
