@@ -1349,671 +1349,26 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "e2a5ecbb-c2c1-40a0-9def-0a8b337f0a5e",
+      "uid": "f92ed9aa-fef5-4467-9271-622e97faadb5",
       "namespace": "default",
-      "name": "near-factory.goerli.testnet-DAO",
-      "title": "factory.goerli.testnet role-group DAO",
+      "name": "near-mainnet-deposit.aurora",
+      "title": "deposit.aurora",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "9c88ceb2-50c9-465f-a1e9-92270394ec7b",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-ForceWithdrawer",
-      "title": "factory.goerli.testnet role-group ForceWithdrawer",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "dd4ca540-8f10-4a7b-952a-d7cbb3270bb5",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-MetadataManager",
-      "title": "factory.goerli.testnet role-group MetadataManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "ee20284b-8561-4334-80be-7d2bdb727a37",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-PauseManager",
-      "title": "factory.goerli.testnet role-group PauseManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "8d004b71-89d0-403b-9770-7ceec805ffd9",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-super_admins",
-      "title": "factory.goerli.testnet role-group super_admins",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "ce7f0888-6c98-44fc-be0f-f5fc0cc150bc",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-TokenUpgradableManager",
-      "title": "factory.goerli.testnet role-group TokenUpgradableManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "a086d462-1acb-4232-ba99-32f1fbda9e30",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-UnrestrictedDeployBridgeToken",
-      "title": "factory.goerli.testnet role-group UnrestrictedDeployBridgeToken",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "0b6e16f4-3cf4-4470-9200-e9d41532333b",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-UnrestrictedDeposit",
-      "title": "factory.goerli.testnet role-group UnrestrictedDeposit",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "68c6d904-59ea-41e5-8e6f-0a8cde6a5bf7",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-UnrestrictedUpdateMetadata",
-      "title": "factory.goerli.testnet role-group UnrestrictedUpdateMetadata",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "bf94ad75-bf43-431a-ade9-83b5af4577f4",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-UpgradableCodeDeployer",
-      "title": "factory.goerli.testnet role-group UpgradableCodeDeployer",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "4b51ffe0-6b0d-43ed-b90f-bd5e84606eaf",
-      "namespace": "default",
-      "name": "near-factory.goerli.testnet-UpgradableCodeStager",
-      "title": "factory.goerli.testnet role-group UpgradableCodeStager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "33e63058-26e4-4408-b400-bed97551f10a",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-CodeDeployer",
-      "title": "fastbridge.testnet role-group CodeDeployer",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "105a798a-7702-4dfd-bdb7-ed79175e987a",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-CodeStager",
-      "title": "fastbridge.testnet role-group CodeStager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "c2de3985-b537-4d9e-94e0-d3397b874f1e",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-ConfigManager",
-      "title": "fastbridge.testnet role-group ConfigManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "2bce2f44-513b-4443-8d09-3a68b43e5615",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-DAO",
-      "title": "fastbridge.testnet role-group DAO",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "886e229c-8aad-4c9d-a421-0f4498bbb526",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-DurationManager",
-      "title": "fastbridge.testnet role-group DurationManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "b2569ec5-d7b5-4955-9c44-98535821b157",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-PauseManager",
-      "title": "fastbridge.testnet role-group PauseManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "8f2a21bc-6227-4a41-bc3d-4316e313a5a1",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-super_admins",
-      "title": "fastbridge.testnet role-group super_admins",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "4d778831-2b29-41b1-8917-d44ee99b7455",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-UnlockManager",
-      "title": "fastbridge.testnet role-group UnlockManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "7359bf39-9c68-4f38-9b18-5801a8b65ac9",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-UnrestrictedLpUnlock",
-      "title": "fastbridge.testnet role-group UnrestrictedLpUnlock",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "a8d6df03-58bd-4518-a1b3-d2c0851702d2",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-UnrestrictedUnlock",
-      "title": "fastbridge.testnet role-group UnrestrictedUnlock",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "f52ddd26-9ebe-4da8-b8ee-dd98224f1b49",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-UnrestrictedWithdraw",
-      "title": "fastbridge.testnet role-group UnrestrictedWithdraw",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "8c445097-7d50-4405-807d-989bf5441292",
-      "namespace": "default",
-      "name": "near-fastbridge.testnet-WhitelistManager",
-      "title": "fastbridge.testnet role-group WhitelistManager",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "role-group",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "role-group",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "1ad0d76d-2a42-42ad-a5c5-3631fb8e645e",
-      "namespace": "default",
-      "name": "near-mainnet-fast.bridge.near",
-      "title": "fast.bridge.near",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
         "aurora.dev/security-tier": "2"
       },
       "tags": [
         "contract-address",
-        "near",
-        "locked"
+        "near"
       ]
     },
     "spec": {
       "type": "contract-deployment",
-      "address": "fast.bridge.near",
+      "address": "deposit.aurora",
       "network": "near",
       "networkType": "mainnet"
     }
@@ -2219,95 +1574,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "6cbffbba-55bb-4a58-bc6b-51692af0dcd2",
-      "namespace": "default",
-      "name": "near-testnet-aurora",
-      "title": "aurora",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "aurora",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "6a809b93-46c2-4cd2-975d-825d1cb61752",
-      "namespace": "default",
-      "name": "near-testnet-factory.goerli.testnet",
-      "title": "factory.goerli.testnet",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "rbac",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "factory.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "2dca8b9d-50d1-4a2b-afcf-559ea4484658",
-      "namespace": "default",
-      "name": "near-testnet-fastbridge.testnet",
-      "title": "fastbridge.testnet",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "rbac",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "fastbridge.testnet",
-      "network": "near",
-      "networkType": "testnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "c4ee5f64-4501-4aac-9a24-5bec4c61a1f9",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x150c79c8a70B1D528e95e200C6cA5Ed0421C44f7",
@@ -2450,6 +1716,66 @@
       "type": "contract-deployment",
       "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "12d4f439-9a6f-406c-90e3-93ef367a6681",
+      "namespace": "stub",
+      "name": "near-mainnet-fees.deposit.aurora",
+      "title": "* fees.deposit.aurora get-fees-contract-id",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fees.deposit.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "eb78c53e-eab3-4e9b-9b7e-56d3cc5d5f72",
+      "namespace": "stub",
+      "name": "near-mainnet-intents.sputnik-dao.near",
+      "title": "* intents.sputnik-dao.near member",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "near",
+        "stub",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "intents.sputnik-dao.near",
+      "network": "near",
       "networkType": "mainnet"
     }
   },
