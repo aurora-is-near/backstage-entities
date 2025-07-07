@@ -1349,15 +1349,15 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "202fe4e8-7d40-4795-a0f1-9efe01c3eae9",
+      "uid": "81d02492-a91d-45ef-bb76-7e0232951c7d",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-DAO",
-      "title": "enear.goerli.testnet role-group DAO",
+      "name": "near-ft-locker.bridge.near-DAO",
+      "title": "ft-locker.bridge.near role-group DAO",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1368,24 +1368,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7105e5ae-c94e-4fcb-865f-5b3f545d48d6",
+      "uid": "789fd7e4-427d-45cf-bdc5-6974d703266f",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-PauseManager",
-      "title": "enear.goerli.testnet role-group PauseManager",
+      "name": "near-ft-locker.bridge.near-PauseManager",
+      "title": "ft-locker.bridge.near role-group PauseManager",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1396,24 +1396,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "97abb21d-4231-4bc6-968a-9619a119f159",
+      "uid": "0b407ce0-d4ec-4e92-b1e3-950b14d2fca1",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-super_admins",
-      "title": "enear.goerli.testnet role-group super_admins",
+      "name": "near-ft-locker.bridge.near-super_admins",
+      "title": "ft-locker.bridge.near role-group super_admins",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1424,24 +1424,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "b21d855d-02e8-4274-ae7e-00deeca23541",
+      "uid": "11072b60-ba05-4f74-8290-dd16e1fd54d8",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-UnrestrictedFinaliseEthToNearTransfer",
-      "title": "enear.goerli.testnet role-group UnrestrictedFinaliseEthToNearTransfer",
+      "name": "near-ft-locker.bridge.near-UnrestrictedDeposit",
+      "title": "ft-locker.bridge.near role-group UnrestrictedDeposit",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1452,24 +1452,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "64f39264-af06-4844-bc1d-da41555efe2f",
+      "uid": "6cb6e074-73d5-4421-92de-8f574ac8796a",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-UnrestrictedMigrateToEthereum",
-      "title": "enear.goerli.testnet role-group UnrestrictedMigrateToEthereum",
+      "name": "near-ft-locker.bridge.near-UnrestrictedWithdraw",
+      "title": "ft-locker.bridge.near role-group UnrestrictedWithdraw",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1480,24 +1480,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "f1b34cde-d206-46e0-b1e4-97c9961c3041",
+      "uid": "aa4a68c4-bd45-4d7f-ad5b-6743c308f925",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-UpgradableCodeDeployer",
-      "title": "enear.goerli.testnet role-group UpgradableCodeDeployer",
+      "name": "near-ft-locker.bridge.near-UpgradableCodeDeployer",
+      "title": "ft-locker.bridge.near role-group UpgradableCodeDeployer",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1508,24 +1508,24 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ee547dd3-3df1-43d6-84ff-780488c64115",
+      "uid": "172f12db-45a8-45e6-8f7d-9a7c2069aeba",
       "namespace": "default",
-      "name": "near-enear.goerli.testnet-UpgradableCodeStager",
-      "title": "enear.goerli.testnet role-group UpgradableCodeStager",
+      "name": "near-ft-locker.bridge.near-UpgradableCodeStager",
+      "title": "ft-locker.bridge.near role-group UpgradableCodeStager",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
         "aurora.dev/security-tier": "1"
       },
@@ -1536,9 +1536,9 @@
     },
     "spec": {
       "type": "role-group",
-      "address": "enear.goerli.testnet",
+      "address": "ft-locker.bridge.near",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
@@ -1574,35 +1574,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "3470c53d-f60e-4921-b190-165205c82fad",
-      "namespace": "default",
-      "name": "near-mainnet-e-near.near",
-      "title": "e-near.near",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "locked"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "e-near.near",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "efd6ddef-4126-4540-af56-44e894b7ba8d",
       "namespace": "default",
       "name": "near-mainnet-ft-locker.bridge.near",
@@ -1627,36 +1598,6 @@
       "address": "ft-locker.bridge.near",
       "network": "near",
       "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "4341ab26-5a23-452c-9e4e-fba6b3c619a7",
-      "namespace": "default",
-      "name": "near-testnet-enear.goerli.testnet",
-      "title": "enear.goerli.testnet",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/near-erc20-connector/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/near-erc20-connector/edit/main/nearBridge/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/near-erc20-connector/tree/main/nearBridge/",
-        "aurora.dev/security-tier": "1"
-      },
-      "tags": [
-        "contract-address",
-        "near",
-        "rbac",
-        "has-unknown"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "enear.goerli.testnet",
-      "network": "near",
-      "networkType": "testnet"
     }
   },
   {
