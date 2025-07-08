@@ -3,7 +3,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "f1bba548-24ec-429c-9837-8e2e37b976d9",
+      "uid": "5c4f550d-8bba-42ae-9574-fe9e10bcec23",
       "namespace": "default",
       "name": "21J4WZssuqWG8redzzMramgRi5yZvxEH848NVMGL8zBn",
       "title": "client-eth2.bridge.near role-group UnrestrictedSubmitLightClientUpdate",
@@ -1377,7 +1377,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "20f127c1-c7fc-44ab-a992-08febb7eba3e",
+      "uid": "b1e9d724-e1a9-48b4-89bd-ed6153c31675",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-DAO",
       "title": "client-eth2.bridge.near role-group DAO",
@@ -1405,7 +1405,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "aeeb818c-359a-43c8-b558-05fdc90b6580",
+      "uid": "7527dce6-9d46-4c83-a3bb-19bdc1a52559",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-PauseManager",
       "title": "client-eth2.bridge.near role-group PauseManager",
@@ -1433,7 +1433,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2c201dd0-2b60-4f96-803d-590c71ced59d",
+      "uid": "40a26ce5-6d6c-4c79-bf97-074142c5b80b",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-super_admins",
       "title": "client-eth2.bridge.near role-group super_admins",
@@ -1461,7 +1461,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "fb587948-2267-44ba-adf0-78d1301443e7",
+      "uid": "626fe8a8-7528-4f5e-a4f9-26ecbac4af59",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-UnrestrictedSubmitExecutionHeader",
       "title": "client-eth2.bridge.near role-group UnrestrictedSubmitExecutionHeader",
@@ -1489,7 +1489,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "d512b4ca-d887-4e3b-b0ae-405761782f3d",
+      "uid": "d2dac447-ec0a-4b9f-8c2f-5e0ebd0ccdb0",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-UpgradableCodeDeployer",
       "title": "client-eth2.bridge.near role-group UpgradableCodeDeployer",
@@ -1517,7 +1517,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "a8d929ad-1be0-4b54-bbf3-baae68955cd6",
+      "uid": "8bde210d-1bb4-4e8c-b7df-4a399efd0255",
       "namespace": "default",
       "name": "near-client-eth2.bridge.near-UpgradableCodeStager",
       "title": "client-eth2.bridge.near role-group UpgradableCodeStager",
@@ -1575,6 +1575,35 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "0b12c5e5-31a0-401a-83fd-e1e099feb56a",
+      "namespace": "default",
+      "name": "near-testnet-client-eth2.goerli.testnet",
+      "title": "client-eth2.goerli.testnet",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "client-eth2.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "caa712e4-0c9b-483d-a601-86da528fe10c",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x150c79c8a70B1D528e95e200C6cA5Ed0421C44f7",
@@ -1608,7 +1637,7 @@
       "uid": "31c74253-ffc3-4d13-a767-c1aff5775d0d",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
-      "title": "* 0x246...CDE1 ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038 admin",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x051AD3F020274910065Dcb421629cd2e6E5b46c4 admin",
       "annotations": {
         "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/eth/nearprover/.catalog-info.yaml",
         "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
