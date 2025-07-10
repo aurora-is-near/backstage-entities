@@ -1349,6 +1349,62 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "2bb9bee7-0388-4625-a1e2-28291fb00aa9",
+      "namespace": "default",
+      "name": "near-testnet-factory.goerli.testnet",
+      "title": "factory.goerli.testnet",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "factory.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "f5a91c82-4028-4754-a2e1-12e5de165a41",
+      "namespace": "default",
+      "name": "near-testnet-prover.goerli.testnet",
+      "title": "prover.goerli.testnet",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "prover.goerli.testnet",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "e68c3ef1-a0a1-4f1a-b437-aeaaa64f29d5",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x150c79c8a70B1D528e95e200C6cA5Ed0421C44f7",
