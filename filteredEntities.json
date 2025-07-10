@@ -1379,6 +1379,36 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "a8db6c62-3893-476c-81b7-925874e86c65",
+      "namespace": "stub",
+      "name": "ethereum-mainnet-0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "title": "* 0x246...CDE1 ethereum-mainnet-0x6BFaD42cFC4EfC96f529D786D643Ff4A8B89FA52 admin",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/eth-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/eth-connector/tree/master/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/eth-connector/edit/master/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/eth-connector/tree/master/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "blockchain-address",
+        "ethereum",
+        "stub",
+        "contract-state"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "0x2468603819Bf09Ed3Fb6f3EFeff24B1955f3CDE1",
+      "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "2de9a150-fc28-4bd0-99a0-4c83940421fc",
       "namespace": "stub",
       "name": "ethereum-mainnet-0x3be7Df8dB39996a837041bb8Ee0dAdf60F767038",
