@@ -1349,29 +1349,28 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2bb9bee7-0388-4625-a1e2-28291fb00aa9",
+      "uid": "caa5e6e8-34ba-4f11-a878-f62bc2d340c4",
       "namespace": "default",
-      "name": "near-testnet-factory.goerli.testnet",
-      "title": "factory.goerli.testnet",
+      "name": "near-mainnet-deposit.aurora",
+      "title": "deposit.aurora",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/",
-        "aurora.dev/security-tier": "1"
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
+        "aurora.dev/security-tier": "2"
       },
       "tags": [
         "contract-address",
-        "near",
-        "has-unknown"
+        "near"
       ]
     },
     "spec": {
       "type": "contract-deployment",
-      "address": "factory.goerli.testnet",
+      "address": "deposit.aurora",
       "network": "near",
-      "networkType": "testnet"
+      "networkType": "mainnet"
     }
   },
   {
