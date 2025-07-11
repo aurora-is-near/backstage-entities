@@ -31,7 +31,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ca3196ba-fa4c-474a-9186-eb4b1f637adc",
+      "uid": "a33d7013-cec5-4cc0-9f07-420f50158422",
       "namespace": "default",
       "name": "2BDeuCDeDBGG87cA7PqVW9kp7n26WqthHbDYrpuBJzSm",
       "title": "0xC5E...3a1f role-group DEFAULT_ADMIN_ROLE",
@@ -59,7 +59,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "16a330ce-35e3-4999-9a3f-2c3103ce9034",
+      "uid": "eb306997-c253-4d0e-ac25-11b64dcfffce",
       "namespace": "default",
       "name": "5WtxajkpsNyyE1pU4aCFs8aPUrExVie5RMpdx8xCLURR",
       "title": "0xC5E...3a1f role-group WHITELISTING_TOKENS_ADMIN_ROLE",
@@ -115,7 +115,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "3523878a-5f9f-4d75-bff2-1e648ba8b7cb",
+      "uid": "b3eb39d7-cd5b-48e5-825f-f6ad0e130735",
       "namespace": "default",
       "name": "9gy7M1SrVdnb71hN9HdyiJPxQcPeTCfKNbAjS8Vk3VhW",
       "title": "0xC5E...3a1f role-group PAUSABLE_ADMIN_ROLE",
@@ -843,7 +843,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "a478d745-d859-423a-a7cc-78cebc4db20f",
+      "uid": "3e00c331-8f70-47d5-b0bb-6fc061e95308",
       "namespace": "default",
       "name": "BfdUbqshb8HZpMes17nvNjM4GZKyXAJSRKBGYGcs8Fpp",
       "title": "0xC5E...3a1f role-group UNPAUSABLE_ADMIN_ROLE",
@@ -1342,6 +1342,34 @@
       "type": "contract-deployment",
       "address": "0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb",
       "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "cefa814f-2b1f-4c8f-a12a-2e3683c0e6b8",
+      "namespace": "default",
+      "name": "near-mainnet-aurora",
+      "title": "aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "aurora",
+      "network": "near",
       "networkType": "mainnet"
     }
   },
