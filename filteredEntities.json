@@ -1715,6 +1715,36 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "f255ce0e-69a4-42eb-bd0f-7e0d4856b6e6",
+      "namespace": "default",
+      "name": "near-mainnet-ft-locker.bridge.near",
+      "title": "ft-locker.bridge.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "ft-locker.bridge.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "39c75005-a2c0-46ab-bc17-3972b349c172",
       "namespace": "default",
       "name": "near-testnet-fastbridge.testnet",
