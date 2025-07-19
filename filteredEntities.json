@@ -1741,34 +1741,6 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "ead383f5-741e-4711-b43a-c211731651df",
-      "namespace": "default",
-      "name": "near-mainnet-deposit.aurora",
-      "title": "deposit.aurora",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "contract-address",
-        "near"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "deposit.aurora",
-      "network": "near",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
       "uid": "18558010-4b0e-4f2d-9c99-5453c29933db",
       "namespace": "default",
       "name": "near-mainnet-e-near.near",
@@ -1971,36 +1943,6 @@
       "type": "contract-deployment",
       "address": "0xfca63Bb93825B24C70D127C495602431e3C7BC00",
       "network": "ethereum",
-      "networkType": "mainnet"
-    }
-  },
-  {
-    "apiVersion": "backstage.io/v1alpha1",
-    "kind": "API",
-    "metadata": {
-      "uid": "1d6c99fa-40ea-45e2-8f81-297b562475d3",
-      "namespace": "stub",
-      "name": "near-mainnet-fees.deposit.aurora",
-      "title": "* fees.deposit.aurora get-fees-contract-id",
-      "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
-        "aurora.dev/security-tier": "2"
-      },
-      "tags": [
-        "blockchain-address",
-        "near",
-        "stub",
-        "contract-state"
-      ]
-    },
-    "spec": {
-      "type": "contract-deployment",
-      "address": "fees.deposit.aurora",
-      "network": "near",
       "networkType": "mainnet"
     }
   },
