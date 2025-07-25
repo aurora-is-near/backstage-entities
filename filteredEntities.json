@@ -1349,27 +1349,26 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "e338fe95-7960-49db-922d-543856cbacd8",
+      "uid": "0f90ae69-2339-4be3-84ae-80bbb9f87212",
       "namespace": "default",
-      "name": "near-mainnet-client-eth2.bridge.near",
-      "title": "client-eth2.bridge.near",
+      "name": "near-mainnet-deposit.aurora",
+      "title": "deposit.aurora",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/",
-        "aurora.dev/security-tier": "1"
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-forwarder-contracts/edit/main/factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-forwarder-contracts/tree/main/factory/",
+        "aurora.dev/security-tier": "2"
       },
       "tags": [
         "contract-address",
-        "near",
-        "locked"
+        "near"
       ]
     },
     "spec": {
       "type": "contract-deployment",
-      "address": "client-eth2.bridge.near",
+      "address": "deposit.aurora",
       "network": "near",
       "networkType": "mainnet"
     }
