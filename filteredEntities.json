@@ -1349,28 +1349,28 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "5e6aaed8-f1ec-4e4b-845b-62388e0a1161",
+      "uid": "1d6bc8c8-e747-451c-8c38-a764354cf049",
       "namespace": "default",
-      "name": "near-mainnet-omft.near",
-      "title": "omft.near",
+      "name": "near-mainnet-prover.bridge.near",
+      "title": "prover.bridge.near",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/near/intents/tree/main/poa-factory/",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-prover/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-prover/",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
         "contract-address",
         "near",
         "rbac",
-        "has-unknown"
+        "locked"
       ]
     },
     "spec": {
       "type": "contract-deployment",
-      "address": "omft.near",
+      "address": "prover.bridge.near",
       "network": "near",
       "networkType": "mainnet"
     }
