@@ -1349,28 +1349,27 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "6e827719-e558-4bfa-a071-c886c6fc2e00",
+      "uid": "2d694025-a3dd-4fff-9aef-684cbad08ff0",
       "namespace": "default",
-      "name": "near-mainnet-client-eth2.bridge.near",
-      "title": "client-eth2.bridge.near",
+      "name": "near-mainnet-factory.bridge.near",
+      "title": "factory.bridge.near",
       "annotations": {
-        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-bridge/blob/master/.catalog-info.yaml",
-        "backstage.io/view-url": "https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-bridge/edit/master/contracts/near/eth-client/.catalog-info.yaml",
-        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-bridge/tree/master/contracts/near/eth-client/",
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/bridge-token-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/bridge-token-factory/",
         "aurora.dev/security-tier": "1"
       },
       "tags": [
         "contract-address",
         "near",
-        "rbac",
         "locked"
       ]
     },
     "spec": {
       "type": "contract-deployment",
-      "address": "client-eth2.bridge.near",
+      "address": "factory.bridge.near",
       "network": "near",
       "networkType": "mainnet"
     }
@@ -1379,7 +1378,35 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7b417c1a-2e57-4d4c-a223-063c67ef3650",
+      "uid": "aba24879-44d5-4b07-bfc6-3f43f95ef04b",
+      "namespace": "default",
+      "name": "near-mainnet-omft.near",
+      "title": "omft.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/near/intents/blob/main/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/near/intents/tree/main/poa-factory/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "omft.near",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "a86a4ecb-9af6-4f8e-8820-abc4949560e6",
       "namespace": "default",
       "name": "near-testnet-client-eth2.goerli.testnet",
       "title": "client-eth2.goerli.testnet",
@@ -1393,8 +1420,7 @@
       },
       "tags": [
         "contract-address",
-        "near",
-        "rbac"
+        "near"
       ]
     },
     "spec": {
