@@ -31,7 +31,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "a78ed25c-4c8a-4313-9909-b417fbaa460d",
+      "uid": "30bba1e9-785c-4766-8629-132f8f43f94a",
       "namespace": "default",
       "name": "2BDeuCDeDBGG87cA7PqVW9kp7n26WqthHbDYrpuBJzSm",
       "title": "0xC5E...3a1f role-group DEFAULT_ADMIN_ROLE",
@@ -59,7 +59,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "7bc222f9-1b97-4996-ad01-7d931bc5f308",
+      "uid": "f02bf7bd-086b-464e-9ce7-185fcf47c4a4",
       "namespace": "default",
       "name": "5WtxajkpsNyyE1pU4aCFs8aPUrExVie5RMpdx8xCLURR",
       "title": "0xC5E...3a1f role-group WHITELISTING_TOKENS_ADMIN_ROLE",
@@ -115,7 +115,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "35843ee6-ccb7-4811-b22b-56a7f1f3dd14",
+      "uid": "7f315154-96da-4767-ad9f-487842fbb80b",
       "namespace": "default",
       "name": "9gy7M1SrVdnb71hN9HdyiJPxQcPeTCfKNbAjS8Vk3VhW",
       "title": "0xC5E...3a1f role-group PAUSABLE_ADMIN_ROLE",
@@ -843,7 +843,7 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
-      "uid": "2b522ac1-6540-4a0d-be5d-4549d3f22e59",
+      "uid": "d968c9d4-f823-4002-b871-b759db942925",
       "namespace": "default",
       "name": "BfdUbqshb8HZpMes17nvNjM4GZKyXAJSRKBGYGcs8Fpp",
       "title": "0xC5E...3a1f role-group UNPAUSABLE_ADMIN_ROLE",
@@ -1342,6 +1342,35 @@
       "type": "contract-deployment",
       "address": "0xE904b6C176Bbd5f3c16cB32D672307002AC75Ccb",
       "network": "ethereum",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "e5e08a62-e3b3-47e1-a61c-f9523857dfbb",
+      "namespace": "default",
+      "name": "near-mainnet-ft-locker.bridge.near",
+      "title": "ft-locker.bridge.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/rainbow-token-connector/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/rainbow-token-connector/edit/master/token-locker/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/rainbow-token-connector/tree/master/token-locker/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "ft-locker.bridge.near",
+      "network": "near",
       "networkType": "mainnet"
     }
   },
