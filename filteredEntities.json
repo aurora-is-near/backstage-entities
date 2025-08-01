@@ -1349,6 +1349,34 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "API",
     "metadata": {
+      "uid": "ad3879f3-70a0-4282-a16a-2c7418220317",
+      "namespace": "default",
+      "name": "near-mainnet-aurora",
+      "title": "aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
       "uid": "9475a6d5-5060-4d51-9ae0-9d6c9c207159",
       "namespace": "default",
       "name": "near-mainnet-deposit.aurora",
@@ -1369,6 +1397,36 @@
     "spec": {
       "type": "contract-deployment",
       "address": "deposit.aurora",
+      "network": "near",
+      "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "d83778cd-6f4e-41b2-8158-a0719bab6641",
+      "namespace": "default",
+      "name": "near-mainnet-fast.bridge.near",
+      "title": "fast.bridge.near",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac",
+        "locked"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fast.bridge.near",
       "network": "near",
       "networkType": "mainnet"
     }
@@ -1458,6 +1516,63 @@
       "address": "staging-intents.near",
       "network": "near",
       "networkType": "mainnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "8daa14a9-8e41-4345-baf0-45ed96d797e3",
+      "namespace": "default",
+      "name": "near-testnet-aurora",
+      "title": "aurora",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-engine/blob/develop/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-engine/edit/develop/engine/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-engine/tree/develop/engine/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract-address",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "aurora",
+      "network": "near",
+      "networkType": "testnet"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "API",
+    "metadata": {
+      "uid": "2a5f6ece-b766-47b1-aed8-4586239be0f2",
+      "namespace": "default",
+      "name": "near-testnet-fastbridge.testnet",
+      "title": "fastbridge.testnet",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/Near-One/fast-bridge-protocol/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/edit-url": "https://github.com/Near-One/fast-bridge-protocol/edit/master/near/contracts/.catalog-info.yaml",
+        "backstage.io/source-location": "url:https://github.com/Near-One/fast-bridge-protocol/tree/master/near/contracts/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "contract-address",
+        "near",
+        "rbac"
+      ]
+    },
+    "spec": {
+      "type": "contract-deployment",
+      "address": "fastbridge.testnet",
+      "network": "near",
+      "networkType": "testnet"
     }
   },
   {
