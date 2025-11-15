@@ -4709,7 +4709,6 @@
       "tags": [
         "contract-address",
         "near",
-        "rbac",
         "has-unknown"
       ]
     },
@@ -4794,7 +4793,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -4822,7 +4822,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -4850,7 +4851,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -4878,7 +4880,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -4906,7 +4909,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -4934,7 +4938,8 @@
         "backstage.io/view-url": "https://github.com/near/intents/tree/main/poa-factory/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/near/intents/edit/main/poa-factory/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol",
-        "aurora.dev/security-tier": "1"
+        "aurora.dev/security-tier": "1",
+        "backstage.io/orphan": "true"
       },
       "tags": [
         "role-group",
@@ -6283,6 +6288,54 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "3351b28b-c6a9-48eb-9e10-bbd1a9a5eff1",
+      "namespace": "default",
+      "name": "1password",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/1password.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/1password.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/1password.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "48416aa2-1804-411e-952d-4169f7a8a2b4",
+      "namespace": "default",
+      "name": "alchemy",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/alchemy.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/alchemy.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/alchemy.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "763e9833-1dfa-4e65-8c03-05c3906a3402",
       "namespace": "default",
       "name": "arium-duel",
@@ -6448,6 +6501,54 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "c61df312-bf09-464b-aa72-961b838c303c",
+      "namespace": "default",
+      "name": "aurora-dao-multisig",
+      "title": "AuroraDAO Multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/auroradao.sputnik-dao.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "0a641409-837c-4e7b-8d74-023fdba33ef7",
+      "namespace": "default",
+      "name": "aurora-dao-staking-farm",
+      "title": "Aurora Staking Farm",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/aurora.pool.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "a7f32c82-fd47-4f3d-b754-3b1fb4e576bf",
       "namespace": "default",
       "name": "aurora-election",
@@ -6468,6 +6569,30 @@
     "spec": {
       "type": "contract",
       "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "35322c23-49ed-484b-8a11-534f020d84ac",
+      "namespace": "default",
+      "name": "aurora-engine-admin-multisigs",
+      "title": "Aurora Engine Testnet Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/testnet/aurora-engine-dao.sputnikv2.testnet"
+      ]
     }
   },
   {
@@ -6520,6 +6645,30 @@
       "deployedAt": [
         "contract:near/mainnet/aurora",
         "contract:near/testnet/aurora"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "0201e67b-cd9b-4710-a96f-2522ab2e95f1",
+      "namespace": "default",
+      "name": "aurora-engine-enpower-multisigs",
+      "title": "Enpower silo management multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0x97c913B4cC0f616e8EC47C7740b19F9647F050Cd"
       ]
     }
   },
@@ -7209,6 +7358,78 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "dc6e841f-7be8-4cae-aadd-81c19f6fdcbb",
+      "namespace": "default",
+      "name": "aurora-foundation-multisig",
+      "title": "Aurora Foundation Multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/aurora-foundation.sputnik-dao.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "e7fe02a1-e1c5-4650-a2d6-71ffbfc1196e",
+      "namespace": "default",
+      "name": "aurora-labs-multisigs-experimental",
+      "title": "Aurora Labs Multisigs (Experimental)",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "2"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/warpdrive.sputnik-dao.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "4fc5ecc9-b44a-4906-8ba5-051c7e8c6918",
+      "namespace": "default",
+      "name": "aurora-labs-multisigs-liquid",
+      "title": "Aurora Labs Multisigs (liquid)",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/auroraliquid.sputnik-dao.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "027fe096-333e-4388-aaca-75144f57fb4b",
       "namespace": "default",
       "name": "aurora-pass",
@@ -7226,6 +7447,77 @@
     },
     "spec": {
       "type": "website"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "5481c427-8e44-49d1-8a31-6a14a5239f9e",
+      "namespace": "default",
+      "name": "aurora-plus-frontend",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/aurora-plus.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/aurora-plus.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/aurora-plus.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "website"
+      ]
+    },
+    "spec": {
+      "type": "website"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "ee6c4588-9e47-4f38-af3f-5c4f96db41c2",
+      "namespace": "default",
+      "name": "aurora-plus-staking-admin-multisig",
+      "title": "Aurora-plus Staking Admin Multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "2"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0x88e21E0CeE6FbdAa1E7BBd2f7e25554144CDCE42"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "46eb2b78-79ed-4065-b8a0-820b14dd8a1b",
+      "namespace": "default",
+      "name": "aurora-plus-swap-multisig",
+      "title": "Aurora-plus Swap Multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0x43ec7dd1a042767f85eD0Df2dCcEb3d57ACc51d2"
+      ]
     }
   },
   {
@@ -7570,6 +7862,54 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "0068ccb1-4ddb-4a29-9a85-699bf9487fca",
+      "namespace": "default",
+      "name": "bamboohr",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/bamboohr.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/bamboohr.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/bamboohr.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "google"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "417d71ba-ae90-4d3c-990d-08bfa517684b",
+      "namespace": "default",
+      "name": "basecamp",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/basecamp.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/basecamp.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/basecamp.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "3cb3fadf-af1f-48a1-b665-2cba62549da8",
       "namespace": "default",
       "name": "bridge-common",
@@ -7679,6 +8019,202 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "cb6fc80e-2503-4e84-b539-9ee36063a343",
+      "namespace": "default",
+      "name": "bridge-token-on-near-deployment",
+      "title": "Bridge NEP-141 Token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/bridge-token-deployment.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/bridge-token-deployment.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/bridge-token-deployment.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "near"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:near/mainnet/1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near",
+        "contract:near/mainnet/514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near",
+        "contract:near/mainnet/a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "contract:near/mainnet/2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+        "contract:near/mainnet/7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.factory.bridge.near",
+        "contract:near/mainnet/a0b73e1ff0b80914ab6fe0444e65848c4c34450b.factory.bridge.near",
+        "contract:near/mainnet/50d1c9771902476076ecfc8b2a83ad6b9355a4c9.factory.bridge.near",
+        "contract:near/mainnet/4fabb145d64652a948d72533023f6e7a623c7c53.factory.bridge.near",
+        "contract:near/mainnet/6f259637dcd74c767781e37bc6133cd6a68aa161.factory.bridge.near",
+        "contract:near/mainnet/6b3595068778dd592e39a122f4f5a5cf09c90fe2.factory.bridge.near",
+        "contract:near/mainnet/c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near",
+        "contract:near/mainnet/c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near",
+        "contract:near/mainnet/9f8f72aa9304c8b593d555f12ef6589cc3a579a2.factory.bridge.near",
+        "contract:near/mainnet/c00e94cb662c3520282e6f5717214004a7f26888.factory.bridge.near",
+        "contract:near/mainnet/c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near",
+        "contract:near/mainnet/0316eb71485b0ab14103307bf65a021042c6d380.factory.bridge.near",
+        "contract:near/mainnet/0bc529c00c6401aef6d220be8c6ea1667f6ad93e.factory.bridge.near",
+        "contract:near/mainnet/111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near",
+        "contract:near/mainnet/744d70fdbe2ba4cf95131626614a1763df805b9e.factory.bridge.near",
+        "contract:near/mainnet/7d1afa7b718fb893db30a3abc0cfc608aacfebb0.factory.bridge.near",
+        "contract:near/mainnet/dbdb4d16eda451d0503b854cf79d55697f90c8df.factory.bridge.near",
+        "contract:near/mainnet/d0929d411954c47438dc1d871dd6081f5c5e149c.factory.bridge.near",
+        "contract:near/mainnet/0000000000085d4780b73119b644ae5ecd22b376.factory.bridge.near",
+        "contract:near/mainnet/ba100000625a3754423978a60c9317c58a424e3d.factory.bridge.near",
+        "contract:near/mainnet/71f85b2e46976bd21302b64329868fd15eb0d127.factory.bridge.near",
+        "contract:near/mainnet/ff20817765cb7f73d4bde2e66e067e58d11095c2.factory.bridge.near",
+        "contract:near/mainnet/537a9095b78517597b5f2058edcd6e1978095909.factory.bridge.near",
+        "contract:near/mainnet/47e820df943170b0e31f9e18ecd5bdd67b77ff1f.factory.bridge.near",
+        "contract:near/mainnet/a4f9cec920ca520a7feb2c3a63050e08967bc111.factory.bridge.near",
+        "contract:near/mainnet/056fd409e1d7a124bd7017459dfea2f387b6d5cd.factory.bridge.near",
+        "contract:near/mainnet/73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f.factory.bridge.near",
+        "contract:near/mainnet/41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.factory.bridge.near",
+        "contract:near/mainnet/035df12e0f3ac6671126525f1015e47d79dfeddf.factory.bridge.near",
+        "contract:near/mainnet/b1dc9124c395c1e97773ab855d66e879f053a289.factory.bridge.near",
+        "contract:near/mainnet/c92e74b131d7b1d46e60e07f3fae5d8877dd03f0.factory.bridge.near",
+        "contract:near/mainnet/990f341946a3fdb507ae7e52d17851b87168017c.factory.bridge.near",
+        "contract:near/mainnet/77fba179c79de5b7653f68b5039af940ada60ce0.factory.bridge.near",
+        "contract:near/mainnet/4cd988afbad37289baaf53c13e98e2bd46aaea8c.factory.bridge.near",
+        "contract:near/mainnet/03ec7bb59be036870ef696a2abf124f496d6735a.factory.bridge.near",
+        "contract:near/mainnet/ce1298ef635326d9f197963e49e1e67422761897.factory.bridge.near",
+        "contract:near/mainnet/380291a9a8593b39f123cf39cc1cc47463330b1f.factory.bridge.near",
+        "contract:near/mainnet/fa1a856cfa3409cfa145fa4e20eb270df3eb21ab.factory.bridge.near",
+        "contract:near/mainnet/5d1e237d348277d2f8a22dc683e3d57f285c3bb3.factory.bridge.near",
+        "contract:near/mainnet/722dd3f80bac40c951b51bdd28dd19d435762180.factory.bridge.near",
+        "contract:near/mainnet/f001937650bb4f62b57521824b2c20f5b91bea05.factory.bridge.near",
+        "contract:near/mainnet/c7283b66eb1eb5fb86327f08e1b5816b0720212b.factory.bridge.near",
+        "contract:near/mainnet/de30da39c46104798bb5aa3fe8b9e0e1f348163f.factory.bridge.near",
+        "contract:near/mainnet/04969cd041c0cafb6ac462bd65b536a5bdb3a670.factory.bridge.near",
+        "contract:near/mainnet/76a6baa20598b6d203d3eae6cc87e326bcb60e43.factory.bridge.near",
+        "contract:near/mainnet/15874d65e649880c2614e7a480cb7c9a55787ff6.factory.bridge.near",
+        "contract:near/mainnet/a0bed124a09ac2bd941b10349d8d224fe3c955eb.factory.bridge.near",
+        "contract:near/mainnet/408e41876cccdc0f92210600ef50372656052a38.factory.bridge.near",
+        "contract:near/mainnet/2ba592f78db6436527729929aaf6c908497cb200.factory.bridge.near",
+        "contract:near/mainnet/009c43b42aefac590c719e971020575974122803.factory.bridge.near",
+        "contract:near/mainnet/9adaba9ffda15e3a043c907d390f645147eb532a.factory.bridge.near",
+        "contract:near/mainnet/d8912c10681d8b21fd3742244f44658dba12264e.factory.bridge.near",
+        "contract:near/mainnet/1ef6a7e2c966fb7c5403efefde38338b1a95a084.factory.bridge.near",
+        "contract:near/mainnet/054d64b73d3d8a21af3d764efd76bcaa774f3bb2.factory.bridge.near",
+        "contract:near/mainnet/5d3a536e4d6dbd6114cc1ead35777bab948e3643.factory.bridge.near",
+        "contract:near/mainnet/168296bb09e24a88805cb9c33356536b980d3fc5.factory.bridge.near",
+        "contract:near/mainnet/f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near",
+        "contract:near/mainnet/0f51bb10119727a7e5ea3538074fb341f56b09ad.factory.bridge.near",
+        "contract:near/mainnet/2370f9d504c7a6e775bf6e14b3f12846b594cd53.factory.bridge.near",
+        "contract:near/mainnet/93dfaf57d986b9ca77df9376c50878e013d9c7c8.factory.bridge.near",
+        "contract:near/mainnet/8634f0689a502b3659f2b3c9e5650d365067b48a.factory.bridge.near",
+        "contract:near/mainnet/d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+        "contract:near/mainnet/a3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2.factory.bridge.near",
+        "contract:near/mainnet/bed4ab0019ff361d83ddeb74883dac8a70f5ea1e.factory.bridge.near",
+        "contract:near/mainnet/a4ef4b0b23c1fc81d3f9ecf93510e64f58a4a016.factory.bridge.near",
+        "contract:near/mainnet/0000000000095413afc295d19edeb1ad7b71c952.factory.bridge.near",
+        "contract:near/mainnet/2b591e99afe9f32eaa6214f7b7629768c40eeb39.factory.bridge.near",
+        "contract:near/mainnet/0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+        "contract:near/mainnet/288f5c0fc03d073378d004201129bc145a4a82fc.factory.bridge.near",
+        "contract:near/mainnet/d417144312dbf50465b1c641d016962017ef6240.factory.bridge.near",
+        "contract:near/mainnet/35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8.factory.bridge.near",
+        "contract:near/mainnet/cc7ab8d78dba187dc95bf3bb86e65e0c26d0041f.factory.bridge.near",
+        "contract:near/mainnet/b64ef51c888972c908cfacf59b47c1afbc0ab8ac.factory.bridge.near",
+        "contract:near/mainnet/226f7b842e0f0120b7e194d05432b3fd14773a9d.factory.bridge.near",
+        "contract:near/mainnet/bbbbca6a901c926f240b89eacb641d8aec7aeafd.factory.bridge.near",
+        "contract:near/mainnet/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+        "contract:near/mainnet/ca0e7269600d353f70b14ad118a49575455c0f2f.factory.bridge.near",
+        "contract:near/mainnet/52a047ee205701895ee06a375492490ec9c597ce.factory.bridge.near",
+        "contract:near/mainnet/ea7cc765ebc94c4805e3bff28d7e4ae48d06468a.factory.bridge.near",
+        "contract:near/mainnet/06a00715e6f92210af9d7680b584931faf71a833.factory.bridge.near",
+        "contract:near/mainnet/a4cb0dce4849bdcad2d553e9e68644cf40e26cce.factory.bridge.near",
+        "contract:near/mainnet/a8006e3ac1bd94e54e3136b8e5dd75db0163e6f4.factory.bridge.near",
+        "contract:near/mainnet/6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611.factory.bridge.near",
+        "contract:near/mainnet/853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+        "contract:near/mainnet/3432b6a60d23ca0dfca7761b7ab56459d9c964d0.factory.bridge.near",
+        "contract:near/mainnet/1117ac6ad6cdf1a3bc543bad3b133724620522d5.factory.bridge.near",
+        "contract:near/mainnet/a47c8bf37f92abed4a126bda807a7b7498661acd.factory.bridge.near",
+        "contract:near/mainnet/d2877702675e6ceb975b4a1dff9fb7baf4c91ea9.factory.bridge.near",
+        "contract:near/mainnet/43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd.factory.bridge.near",
+        "contract:near/mainnet/3ea8ea4237344c9931214796d9417af1a1180770.factory.bridge.near",
+        "contract:near/mainnet/9aeb50f542050172359a0e1a25a9933bc8c01259.factory.bridge.near",
+        "contract:near/mainnet/39fc9e94caeacb435842fadedecb783589f50f5f.factory.bridge.near",
+        "contract:near/mainnet/1a7e4e63778b4f12a199c062f3efdd288afcbce8.factory.bridge.near",
+        "contract:near/mainnet/31429d1856ad1377a8a0079410b297e1a9e214c2.factory.bridge.near",
+        "contract:near/mainnet/e99de844ef3ef72806cf006224ef3b813e82662f.factory.bridge.near",
+        "contract:near/mainnet/7162469321ae5880f077d250b626f3271b21b903.factory.bridge.near",
+        "contract:near/mainnet/df801468a808a32656d2ed2d2d80b72a129739f4.factory.bridge.near",
+        "contract:near/mainnet/429881672b9ae42b8eba0e26cd9c73711b891ca5.factory.bridge.near",
+        "contract:near/mainnet/761d38e5ddf6ccf6cf7c55759d5210750b5d60f3.factory.bridge.near",
+        "contract:near/mainnet/f0dc76c22139ab22618ddfb498be1283254612b1.factory.bridge.near",
+        "contract:near/mainnet/dfdb7f72c1f195c5951a234e8db9806eb0635346.factory.bridge.near",
+        "contract:near/mainnet/508df5aa4746be37b5b6a69684dfd8bdc322219d.factory.bridge.near",
+        "contract:near/mainnet/5067006f830224960fb419d7f25a3a53e9919bb0.factory.bridge.near",
+        "contract:near/mainnet/85f17cf997934a597031b2e18a9ab6ebd4b9f6a4.factory.bridge.near",
+        "contract:near/mainnet/b8919522331c59f5c16bdfaa6a121a6e03a91f62.factory.bridge.near",
+        "contract:near/mainnet/501ace9c35e60f03a2af4d484f49f9b1efde9f40.factory.bridge.near",
+        "contract:near/mainnet/6a8c1211d36be23d326a6b0bc4e29b482595d0a3.factory.bridge.near",
+        "contract:near/mainnet/818f49467021bdaadae69e071e79ad2fd7226a1e.factory.bridge.near",
+        "contract:near/mainnet/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+        "contract:near/mainnet/059a1f1dea1020297588c316ffc30a58a1a0d4a2.factory.bridge.near",
+        "contract:near/mainnet/0000000de40dfa9b17854cbc7869d80f9f98d823.factory.bridge.near",
+        "contract:near/mainnet/967da4048cd07ab37855c090aaf366e4ce1b9f48.factory.bridge.near",
+        "contract:near/mainnet/39a15a0695c77cbe5fd4f06ab0ccb7bad62f696f.factory.bridge.near",
+        "contract:near/mainnet/7cc183af8d90015e5aa935a5240be1c2b367b877.factory.bridge.near",
+        "contract:near/mainnet/a0dc23fa9f42146e62e027c50f866d8bdcc46a8a.factory.bridge.near",
+        "contract:near/mainnet/1ab43204a195a0fd37edec621482afd3792ef90b.factory.bridge.near",
+        "contract:near/mainnet/a9fa94e65b5b0fae48535bb91015cfb85b36fbcf.factory.bridge.near",
+        "contract:near/mainnet/0aabcc65ef352ad84b1326df188c95b6ab856c1c.factory.bridge.near",
+        "contract:near/mainnet/44ee4ae1e0c2e6160715f24c02fd8df72afe31f2.factory.bridge.near",
+        "contract:near/mainnet/d33d0eb1c0c0295c3a2409a9101dd511823bf217.factory.bridge.near",
+        "contract:near/mainnet/7ca9b7fa8e88384588c1c1da4609113e9c0fc710.factory.bridge.near",
+        "contract:near/mainnet/753d4fbee97ddc1e89dc54863b09e272390581c6.factory.bridge.near",
+        "contract:near/mainnet/7f5c4aded107f66687e6e55dee36a3a8fa3de030.factory.bridge.near",
+        "contract:near/mainnet/0c10bf8fcb7bf5412187a595ab97a3609160b5c6.factory.bridge.near",
+        "contract:near/mainnet/ce84ee6aa2d3d84325c528b25a248b50c5edad68.factory.bridge.near",
+        "contract:near/mainnet/513c3200f227ebb62e3b3d00b7a83779643a71cf.factory.bridge.near",
+        "contract:near/mainnet/cf3c8be2e2c42331da80ef210e9b1b307c03d36a.factory.bridge.near",
+        "contract:near/mainnet/cc6f64b74614f52e7fd808a48ad01a26ca778200.factory.bridge.near",
+        "contract:near/mainnet/f56b164efd3cfc02ba739b719b6526a6fa1ca32a.factory.bridge.near",
+        "contract:near/mainnet/30d20208d987713f46dfd34ef128bb16c404d10f.factory.bridge.near",
+        "contract:near/mainnet/5380442d3c4ec4f5777f551f5edd2fa0f691a27c.factory.bridge.near",
+        "contract:near/mainnet/c6903b623f1548f533eb367f6f1b7d717b9351c2.factory.bridge.near",
+        "contract:near/mainnet/2bb360ef17faaf3b33e6513bf6c5c382c6aa8c28.factory.bridge.near",
+        "contract:near/mainnet/1494ca1f11d487c2bbe4543e90080aeba4ba3c2b.factory.bridge.near",
+        "contract:near/mainnet/b4b9dc1c77bdbb135ea907fd5a08094d98883a35.factory.bridge.near",
+        "contract:near/mainnet/9c2dc0c3cc2badde84b0025cf4df1c5af288d835.factory.bridge.near",
+        "contract:near/mainnet/509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a.factory.bridge.near",
+        "contract:near/mainnet/f1dc500fde233a4055e25e5bbf516372bc4f6871.factory.bridge.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "ded53aa7-803e-472f-97e0-b8be2b7f5c35",
+      "namespace": "default",
+      "name": "bridge-validator-multisig",
+      "title": "Rainbow Bridge Validator Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "allow-unknown"
+      ]
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/bridge-validator.sputnik-dao.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "a0094419-a232-4201-a1fb-80dbe537b9db",
       "namespace": "default",
       "name": "btc-light-client-btc-types",
@@ -7774,6 +8310,102 @@
     },
     "spec": {
       "type": "service"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "cd352868-db76-4cf5-803b-2996de683e9f",
+      "namespace": "default",
+      "name": "calendly",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/calendly.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/calendly.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/calendly.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "08a3d3dc-dcd7-48f7-979f-2f7e01648d9a",
+      "namespace": "default",
+      "name": "datadog",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/datadog.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/datadog.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/datadog.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "google"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "415cea33-e864-4e23-9d0a-63a0c88ff975",
+      "namespace": "default",
+      "name": "deel",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/deel.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/deel.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/deel.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "56df23e9-08ac-44f0-8b53-56ee35ff5896",
+      "namespace": "default",
+      "name": "discord",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/discord.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/discord.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/discord.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
     }
   },
   {
@@ -7952,6 +8584,25 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "c36c71bc-b05b-451e-83b0-82d5e8b2a8e0",
+      "namespace": "default",
+      "name": "eth-connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/eth-connector.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/eth-connector.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/eth-connector.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/"
+      }
+    },
+    "spec": {
+      "type": "service"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "726ab80e-8dec-44c3-aeca-8830c86f62ad",
       "namespace": "default",
       "name": "eth-custodian",
@@ -8088,6 +8739,174 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "f963d869-4cea-41ed-9ae4-e5190329ea29",
+      "namespace": "default",
+      "name": "fastmail",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/fastmail.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/fastmail.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/fastmail.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "45b4a9a1-b470-4399-8c8f-712e4a060a9b",
+      "namespace": "default",
+      "name": "gcp",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/gcp.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/gcp.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/gcp.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "google"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "cfb19e71-9952-441f-aaa9-148e60742f9e",
+      "namespace": "default",
+      "name": "google-workspace",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/google-workspace.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/google-workspace.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/google-workspace.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "3403370d-9fce-4c9a-b683-5fdc055550c9",
+      "namespace": "default",
+      "name": "hackmd",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/hackmd.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/hackmd.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/hackmd.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "465631fd-56d0-43c2-a783-dcb502db1286",
+      "namespace": "default",
+      "name": "helpscout",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/helpscout.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/helpscout.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/helpscout.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "051e267a-ed1b-4086-af6b-f7be64d5c25a",
+      "namespace": "default",
+      "name": "Heroku",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/heroku.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/heroku.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/heroku.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "email"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "90fc2861-48d3-4f65-8f4f-2d2bad6c92ae",
+      "namespace": "default",
+      "name": "infura",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/infura.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/infura.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/infura.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "652e6e77-f62d-436a-96bb-671c6e7e34ca",
       "namespace": "default",
       "name": "intents-contract",
@@ -8109,6 +8928,30 @@
       "deployedAt": [
         "contract:near/mainnet/intents.near",
         "contract:near/mainnet/staging-intents.near"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "cb88167a-5652-44cd-9a00-f7ee7209d788",
+      "namespace": "default",
+      "name": "intents-dev-multisigs",
+      "title": "Intents Dev Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/intents.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/intents.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/intents.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/intents.sputnik-dao.near"
       ]
     }
   },
@@ -8213,6 +9056,73 @@
       "deployedAt": [
         "contract:aurora/mainnet/0x22a412e9d94ec8551e184dc268d60237dcadfab0"
       ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "3690258a-8653-47d5-b0d4-804a86d88596",
+      "namespace": "default",
+      "name": "lever",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/lever.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/lever.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/lever.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "76bbd410-4335-41c5-bd1d-330dd14ac504",
+      "namespace": "default",
+      "name": "namecheap",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/namecheap.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/namecheap.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/namecheap.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "e50dfffd-270d-4fb1-a761-38cc2aef28c2",
+      "namespace": "default",
+      "name": "near-erc20-connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/near-erc20-connector.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/near-erc20-connector.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/near-erc20-connector.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/"
+      }
+    },
+    "spec": {
+      "type": "service"
     }
   },
   {
@@ -8371,6 +9281,30 @@
     "spec": {
       "type": "contract",
       "deployedAt": []
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "1fc030e9-4d15-45fd-a9a9-ebca841bec33",
+      "namespace": "default",
+      "name": "omni-bridge-multisigs",
+      "title": "Omni-Bridge Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/omni-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/omni-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/omni-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0xbaA031a1f625A8a50408e3D9Da338fFa245e7C39"
+      ]
     }
   },
   {
@@ -8649,6 +9583,73 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "f351454c-f77e-4a77-8ec2-233d91171bcd",
+      "namespace": "default",
+      "name": "rainbow-token-connector",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/rainbow-token-connector.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/rainbow-token-connector.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/rainbow-token-connector.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/"
+      }
+    },
+    "spec": {
+      "type": "service"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "3ff44aaa-0e59-43b3-a0c9-f096562dd1d0",
+      "namespace": "default",
+      "name": "render",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/render.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/render.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/render.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "2f27ef37-21f3-477f-851b-09c2a4222645",
+      "namespace": "default",
+      "name": "request",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/request.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/request.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/request.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "b3742f58-e015-441f-8294-a82a9a09408d",
       "namespace": "default",
       "name": "rule-engine",
@@ -8692,6 +9693,30 @@
       "deployedAt": [
         "contract:aurora/mainnet/0x055707c67977e8217F98f19cFa8aca18B2282D0C"
       ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "cb652241-26e1-43fe-ad14-ccd7890309b4",
+      "namespace": "default",
+      "name": "slack",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/slack.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/slack.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/slack.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
     }
   },
   {
@@ -8843,6 +9868,30 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "Component",
     "metadata": {
+      "uid": "299bd97c-bee9-4c84-8c3e-7ed27a65f279",
+      "namespace": "default",
+      "name": "taikai-aurora-bounty-program",
+      "title": "TAIKAI Aurora Bounty Program",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0xA0E24a666ABdFAe30C69d28BDd9c62f7341D7435"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
       "uid": "d99ee322-caed-454d-a1c5-1fc065dc8824",
       "namespace": "default",
       "name": "transaction-accounting",
@@ -8858,6 +9907,326 @@
     },
     "spec": {
       "type": "contract-backend"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "18339997-b4c6-488e-9e42-9fe8c1a0fde6",
+      "namespace": "default",
+      "name": "tri-maker",
+      "title": "Trisolaris TriMaker",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/TriMaker.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0xe793455c9728fc91A3E5a33FAfF9eB2F228aE151"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "053f25c6-59fc-4d97-8163-62468768484c",
+      "namespace": "default",
+      "name": "tri-stable-staking",
+      "title": "Trisolaris StableTRIStaking",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/StableTRIStaking.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0xe559092D2e80d9B1d91a641CE25bACC3cFdCF689"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "676daedd-0d63-46b3-aea6-0109194204f5",
+      "namespace": "default",
+      "name": "tri-stablelp-maker",
+      "title": "Trisolaris StableLPMakerV4",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/StableLPMakerV4.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x5174F1F043A9C66C58f62C3b81a24fb0F31DE94A"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "71da2d4a-871c-496a-8679-6f68d6c262ac",
+      "namespace": "default",
+      "name": "tri-staking-v1",
+      "title": "Trisolaris Staking v1",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/MasterChef.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x1f1Ed214bef5E83D8f5d0eB5D7011EB965D0D79B"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "045dba05-0a4d-48f0-a397-dcc3192b0b64",
+      "namespace": "default",
+      "name": "tri-staking-v2",
+      "title": "Trisolaris Staking",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/MasterChefV2.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x3838956710bcc9D122Dd23863a0549ca8D5675D6"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "19edea2e-22a8-42f0-8d1c-6f34d297aee7",
+      "namespace": "default",
+      "name": "tri-token",
+      "title": "Trisolaris Token",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/governance/Tri.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora",
+        "erc20"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0xFa94348467f64D5A457F75F8bc40495D33c65aBB"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "85d51a2b-322e-4a68-aa39-887649d76f19",
+      "namespace": "default",
+      "name": "tri-usdc-maker",
+      "title": "Trisolaris UsdcMaker",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/UsdcMaker.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x5EBd5e963A00500B6a1234c621811c52AF0aAade"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "7a75e8fe-7d9e-4d59-abbb-568ea842fb99",
+      "namespace": "default",
+      "name": "trisolaris-dao",
+      "title": "Trisolaris Dao",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "2"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0xf86119de6ee8d4447C8219eEC20E7561d09816d3"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "138abbe3-a1af-4808-8b65-33174072ad11",
+      "namespace": "default",
+      "name": "trisolaris-frontend",
+      "title": "Trisolaris Frontend",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/interface",
+        "aurora.dev/security-tier": "2"
+      },
+      "tags": [
+        "website"
+      ]
+    },
+    "spec": {
+      "type": "website"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "9221c704-6e53-41c5-bec4-7a5fa4c77c95",
+      "namespace": "default",
+      "name": "trisolaris-ops-multisig",
+      "title": "Trisolaris Ops Multisig",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "2"
+      }
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:aurora/mainnet/0x99cbfCf7134228e12e9ED0F534C73C85A03C91E1"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "57cbac53-2c17-4fe4-84fa-c61107149e91",
+      "namespace": "default",
+      "name": "vercel",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/vercel.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/vercel.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/vercel.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "github"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "4cf0a93d-7aec-4d68-84c2-fc2f1f56afbd",
+      "namespace": "default",
+      "name": "white-knight-trust",
+      "title": "White Knight Trust",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "allow-unknown"
+      ]
+    },
+    "spec": {
+      "type": "multisig",
+      "deployedAt": [
+        "multisig:near/mainnet/wht.sputnik-dao.near"
+      ]
     }
   },
   {
@@ -8888,6 +10257,292 @@
   },
   {
     "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "3a9cadbd-2ba1-4384-9966-92af238b4677",
+      "namespace": "default",
+      "name": "xtri-token",
+      "title": "xTri Token (TriBar)",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/components/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/components/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/trisolaris-labs/trisolaris_core/blob/main/contracts/rewards/TriBar.sol",
+        "aurora.dev/security-tier": "1"
+      },
+      "tags": [
+        "contract",
+        "aurora",
+        "erc20"
+      ]
+    },
+    "spec": {
+      "type": "contract",
+      "deployedAt": [
+        "contract:aurora/mainnet/0x802119e4e253D5C19aA06A5d567C5a41596D6803"
+      ]
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "b2f5fde3-8c53-4b58-ab2b-10d328f26f03",
+      "namespace": "default",
+      "name": "zapier",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/zapier.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/zapier.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/zapier.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+      "uid": "4750f044-7b7c-4fa5-aadf-6e22bc5c16e3",
+      "namespace": "default",
+      "name": "zoom",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/zoom.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/zoom.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/saas/zoom.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/saas/",
+        "aurora.dev/security-tier": "-1",
+        "aurora.dev/sso-type": "unknown"
+      },
+      "tags": [
+        "saas"
+      ]
+    },
+    "spec": {
+      "type": "saas"
+    }
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "ee1dfb15-e83d-4462-9641-a5f1dbbedf8c",
+      "namespace": "default",
+      "name": "arium",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/arium.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/arium.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/arium.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "d59822d0-c52d-4505-a602-88aa37984fa1",
+      "namespace": "default",
+      "name": "aurora-borealis",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-borealis.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-borealis.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-borealis.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "2d723d33-7d1f-4a97-b38b-cdbd7680ee37",
+      "namespace": "default",
+      "name": "aurora-cloud-multisigs",
+      "title": "Aurora Engine Multisigs for various silos",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-cloud.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "6b7634a8-d759-4bcf-bd78-733ae41f8a61",
+      "namespace": "default",
+      "name": "aurora-dao-bvi",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao-bvi-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao-bvi-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-dao-bvi-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "bef51f74-1ea3-40f0-ab03-740c4ece9a15",
+      "namespace": "default",
+      "name": "aurora-ecosystem-multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-ecosystem.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "2614339c-5d8e-48d0-9da7-191855ab95a1",
+      "namespace": "default",
+      "name": "aurora-engine",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/aurora-engine.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/aurora-engine.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/aurora-engine.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "781c4e1c-4fd0-47bb-a1f1-65ead99d2907",
+      "namespace": "default",
+      "name": "aurora-engine-multisigs",
+      "title": "Aurora Engine Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-engine.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "ebb4f672-5076-4c79-a72f-8e0d0fabd3b5",
+      "namespace": "default",
+      "name": "aurora-foundation-finance",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-foundation-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "72db1976-6ec9-4e95-bde9-3f66143ecca6",
+      "namespace": "default",
+      "name": "aurora-labs-finance",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-labs-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "dfee3632-a91f-463a-bf00-f38a916c1dfc",
+      "namespace": "default",
+      "name": "aurora-plus",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/aurora-plus.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/aurora-plus.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/aurora-plus.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "e573c38b-e43e-4d76-9664-ad6e412c00e9",
+      "namespace": "default",
+      "name": "aurora-plus-multisigs",
+      "title": "Aurora Plus Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-plus.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "7abd0d53-856c-40dd-9202-dd65b118e8c3",
+      "namespace": "default",
+      "name": "auroradao",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/aurora-dao.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
     "kind": "System",
     "metadata": {
       "uid": "b3b5b253-c213-44c2-9809-56dca0184267",
@@ -8907,6 +10562,133 @@
     "apiVersion": "backstage.io/v1alpha1",
     "kind": "System",
     "metadata": {
+      "uid": "df885e04-ec37-4fda-8f09-a91a27e6e3a0",
+      "namespace": "default",
+      "name": "backstage",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/backstage.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/backstage.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/backstage.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "3"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "74d4c38f-4f8f-4626-bc31-dc50f9b94138",
+      "namespace": "default",
+      "name": "bridge-connectors",
+      "title": "Bridge Connectors",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "pagerduty.com/integration-key": "R03DKV4D7HEO3BK2PB7QS6G9WXWGOEW6"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "80c13078-853a-4fe2-8e75-b1ae9860cce7",
+      "namespace": "default",
+      "name": "bridge-connectors-deployments",
+      "title": "Bridge Connectors (deployments)",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "pagerduty.com/integration-key": "R03DKV4D7HEO3BK2PB7QS6G9WXWGOEW6"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "42891d1f-b3c9-4e94-b69e-82d34c916b65",
+      "namespace": "default",
+      "name": "bridge-multisigs",
+      "title": "Bridge Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "f9772d2f-c7ee-49cb-8679-de14bb1486ce",
+      "namespace": "default",
+      "name": "bridge-protocol",
+      "title": "Bridge Protocol",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "pagerduty.com/integration-key": "R03DKV4D7HEO3BK2PB7QS6G9WXWGOEW6"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "2e425919-ed9d-41a7-970a-1f9e3cf646e0",
+      "namespace": "default",
+      "name": "forwarder",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/forwarder.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/forwarder.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/forwarder.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "9326ec52-c5e8-40d4-a572-401840d0eb55",
+      "namespace": "default",
+      "name": "intents-protocol",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/intents.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/intents.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/intents.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
       "uid": "3159e922-7496-4cfc-ab25-981f9bc0b93c",
       "namespace": "default",
       "name": "laurora",
@@ -8917,6 +10699,132 @@
         "backstage.io/view-url": "https://github.com/aurora-is-near/lAURORA-smartpad/tree/main/.catalog-info.yaml",
         "backstage.io/edit-url": "https://github.com/aurora-is-near/lAURORA-smartpad/edit/main/.catalog-info.yaml",
         "backstage.io/source-location": "url:https://github.com/aurora-is-near/lAURORA-smartpad/tree/main/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "497ce1c2-9f80-4aca-8286-391207b5339d",
+      "namespace": "default",
+      "name": "omnibridge-protocol",
+      "title": "Omni Bridge Protocol",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/omni-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/omni-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/omni-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "9ae4b6e5-ed25-4147-a116-f791df0035fc",
+      "namespace": "default",
+      "name": "powergold",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/powergold.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/powergold.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/powergold.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "c20909f8-5bfb-487f-9120-b86442bb695c",
+      "namespace": "default",
+      "name": "spectre-bridge",
+      "title": "Spectre Bridge",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/rainbow-bridge.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "pagerduty.com/integration-key": "R03DKV4D7HEO3BK2PB7QS6G9WXWGOEW6"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "772b7603-ac2c-40be-b34a-2a52b6cc48e3",
+      "namespace": "default",
+      "name": "star-plunder",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/star-plunder.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/star-plunder.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/star-plunder.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "7f322fc6-719a-4e97-be44-aa8c207b836b",
+      "namespace": "default",
+      "name": "trisolaris",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/systems/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/systems/",
+        "aurora.dev/security-tier": "1"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "7d0ec294-1e9d-44fe-9694-a916e1490823",
+      "namespace": "default",
+      "name": "trisolaris-multisigs",
+      "title": "Trisolaris Multisigs",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/trisolaris.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
+      }
+    },
+    "spec": {}
+  },
+  {
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "System",
+    "metadata": {
+      "uid": "8a33bb05-34c3-4389-9ae8-3f1e413fd460",
+      "namespace": "default",
+      "name": "white-knight-finance",
+      "annotations": {
+        "backstage.io/managed-by-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/managed-by-origin-location": "url:https://github.com/aurora-is-near/aurora-inventory/blob/master/.catalog-info.yaml",
+        "backstage.io/view-url": "https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/edit-url": "https://github.com/aurora-is-near/aurora-inventory/edit/master/backstage/multisigs/white-knight-finance.yaml",
+        "backstage.io/source-location": "url:https://github.com/aurora-is-near/aurora-inventory/tree/master/backstage/multisigs/"
       }
     },
     "spec": {}
